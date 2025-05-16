@@ -28,4 +28,23 @@ export class WorkComponent {
       category: 'Print',
     },
   ];
+
+  changeBg(event: MouseEvent): void {
+    const target = event.target as HTMLElement;
+    const color = target.getAttribute('data-primary-color');
+    const textColor = target.getAttribute('data-text-color');
+    if (color) {
+      document.body.style.transition = 'background-color 0.6s ease';
+      document.body.style.backgroundColor = color;
+    }
+
+    if (textColor) {
+      document.body.style.color = textColor;
+    }
+  }
+
+  resetBg(): void {
+    document.body.style.backgroundColor = '';
+    document.body.style.color = '';
+  }
 }
