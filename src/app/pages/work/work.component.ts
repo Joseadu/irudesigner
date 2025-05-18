@@ -8,6 +8,7 @@ import {
 import { work_basic } from '../../core/models/work.interface';
 import { RouterLink } from '@angular/router';
 import { ThemeService } from '../../core/services/theme.service';
+import { TransitionService } from '../../core/services/transition.service';
 
 @Component({
   selector: 'app-projects',
@@ -22,27 +23,26 @@ export class WorkComponent implements AfterViewInit, OnDestroy {
     /* ... */
   ];
 
-  constructor(private themeService: ThemeService, private el: ElementRef) {}
+  constructor(private themeService: ThemeService, private el: ElementRef, private transitionService: TransitionService) {}
 
-  ngAfterViewInit() {
-    const links = this.el.nativeElement.querySelectorAll('.group-link');
-    links.forEach((link: HTMLElement) => {
-      const route = link.getAttribute('routerLink');
-      if (!route) return;
+ngAfterViewInit() {
+  const links = this.el.nativeElement.querySelectorAll('.group-link');
+  links.forEach((link: HTMLElement) => {
+    const route = link.getAttribute('routerLink');
+    if (!route) return;
 
-      const color = this.themeService.getColorsForRoute(route);
-      if (color) {
-        link.setAttribute('data-primary-color', color.bg);
-        link.setAttribute('data-text-color', color.text);
-      }
+    const color = this.themeService.getColorsForRoute(route);
+    if (color) {
+      link.setAttribute('data-primary-color', color.bg);
+      link.setAttribute('data-text-color', color.text);
 
       link.addEventListener('click', () => {
-        document.body.style.transition = 'none';
-        document.body.style.backgroundColor = '#ffffff';
-        document.body.style.color = '#000000';
+        this.transitionService.setBackground(color.bg); // solo cuando haces click
       });
-    });
-  }
+    }
+  });
+}
+
 
   ngOnDestroy(): void {
     this.resetBg(); // limpiar wrapper al salir

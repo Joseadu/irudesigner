@@ -1,0 +1,9 @@
+.project-intro {
+  height: 100vh;
+  transition: height .9s cubic-bezier(0.65, 0, 0.35, 1);
+  width: 100%;
+}
+
+.project-intro.shrink {
+  height: 500px;
+}
