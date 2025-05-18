@@ -1,10 +1,8 @@
 <section class="section">
-    <div class="wrapper">
+    <div #wrapper class="wrapper">
         <div class="col-8 group">
             <a
                 class="group-link"
-                data-primary-color="#9DEAD3"
-                data-text-color="#2D3234"
                 (mouseenter)="changeBg($event)"
                 (mouseleave)="resetBg()"
             ></a>
@@ -24,9 +22,8 @@
         </div>
         <div class="col-6 group">
             <a
+                routerLink="tooting-police-station"
                 class="group-link"
-                data-primary-color="#6F45D7"
-                data-text-color="#F1F7F8"
                 (mouseenter)="changeBg($event)"
                 (mouseleave)="resetBg()"
             ></a>
@@ -40,9 +37,8 @@
         </div>
         <div class="col-6 group">
             <a
+                routerLink="concilio"
                 class="group-link"
-                data-primary-color="#FEE50E"
-                data-text-color="#2D3234"
                 (mouseenter)="changeBg($event)"
                 (mouseleave)="resetBg()"
             ></a>
@@ -52,6 +48,21 @@
             <div class="group-caption d-flex d-column">
                 <h4 class="title">CONCILIO COMMUNICATIONS</h4>
                 <p class="subtitle">Rebranding, Diseño UI/UX, Diseño gráfico y editorial</p>
+            </div>
+        </div>
+        <div class="col-8 group">
+            <a
+                routerLink="dagenham"
+                class="group-link"
+                (mouseenter)="changeBg($event)"
+                (mouseleave)="resetBg()"
+            ></a>
+            <div class="media" style="width: 100%; position: relative;">
+                <img src="assets/images/bg-1.svg" style="width: 100%; height: auto; display: block;" alt="">
+            </div>
+            <div class="group-caption d-flex d-column">
+                <h4 class="title">DAGENHAM</h4>
+                <p class="subtitle">Identidad Visual, Diseño gráfico, Diseño web y cartelería</p>
             </div>
         </div>
     </div>

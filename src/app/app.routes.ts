@@ -1,9 +1,24 @@
 import { Routes } from '@angular/router';
 import { WorkComponent } from './pages/work/work.component';
+import { TootingPoliceStationComponent } from './pages/tooting-police-station/tooting-police-station.component';
+import { ConcilioComponent } from './pages/concilio/concilio.component';
+import { DagenhamComponent } from './pages/dagenham/dagenham.component';
 
 export const routes: Routes = [
     {
         path: '',
         component: WorkComponent
+    },
+    {
+        path: 'tooting-police-station',
+        component: TootingPoliceStationComponent
+    },
+    {
+        path: 'concilio',
+        component: ConcilioComponent
+    },
+    {
+        path: 'dagenham',
+        component: DagenhamComponent
     }
 ];

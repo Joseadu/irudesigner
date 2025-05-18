@@ -1,50 +1,68 @@
-import { Component } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  OnDestroy,
+  ViewChild,
+} from '@angular/core';
 import { work_basic } from '../../core/models/work.interface';
+import { RouterLink } from '@angular/router';
+import { ThemeService } from '../../core/services/theme.service';
 
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './work.component.html',
-  styleUrl: './work.component.css'
+  styleUrl: './work.component.css',
 })
-export class WorkComponent {
-  workBasic: work_basic[] = [
-    {
-      title: 'Public Pool',
-      subtitle: 'Lounging Goods for Pool Days',
-      image: 'assets/images/public-pool.jpg',
-      category: 'Brand Identity',
-    },
-    {
-      title: 'Room For Milly',
-      subtitle: 'Cocktails and Color',
-      image: 'assets/images/room-milly.jpg',
-      category: 'Naming',
-    },
-    {
-      title: 'Foxtrot',
-      subtitle: 'Chicago Hot Dog Chips',
-      image: 'assets/images/public-pool.jpg',
-      category: 'Print',
-    },
+export class WorkComponent implements AfterViewInit, OnDestroy {
+  @ViewChild('wrapper') wrapperRef!: ElementRef;
+
+  workBasic = [
+    /* ... */
   ];
+
+  constructor(private themeService: ThemeService, private el: ElementRef) {}
+
+  ngAfterViewInit() {
+    const links = this.el.nativeElement.querySelectorAll('.group-link');
+    links.forEach((link: HTMLElement) => {
+      const route = link.getAttribute('routerLink');
+      if (!route) return;
+
+      const color = this.themeService.getColorsForRoute(route);
+      if (color) {
+        link.setAttribute('data-primary-color', color.bg);
+        link.setAttribute('data-text-color', color.text);
+      }
+
+      link.addEventListener('click', () => {
+        document.body.style.transition = 'none';
+        document.body.style.backgroundColor = '#ffffff';
+        document.body.style.color = '#000000';
+      });
+    });
+  }
+
+  ngOnDestroy(): void {
+    this.resetBg(); // limpiar wrapper al salir
+  }
 
   changeBg(event: MouseEvent): void {
     const target = event.target as HTMLElement;
-    const color = target.getAttribute('data-primary-color');
-    const textColor = target.getAttribute('data-text-color');
-    if (color) {
-      document.body.style.transition = 'background-color 0.6s ease';
-      document.body.style.backgroundColor = color;
-    }
+    const bg = target.getAttribute('data-primary-color');
+    const text = target.getAttribute('data-text-color');
 
-    if (textColor) {
-      document.body.style.color = textColor;
+    if (bg) {
+      document.body.style.transition =
+        'background-color 0.6s ease, color 0.3s ease';
+      document.body.style.backgroundColor = bg;
+      document.body.style.color = text || '';
+      this.themeService.setTheme(bg, text || '');
     }
   }
 
   resetBg(): void {
-    document.body.style.backgroundColor = '';
-    document.body.style.color = '';
+    this.themeService.resetBodyStyles();
   }
 }
