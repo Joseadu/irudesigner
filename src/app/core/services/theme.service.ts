@@ -17,6 +17,7 @@ export class ThemeService {
     ['deporte-mujer', { bg: '#262626', text: '#F1F7F8' }],
     ['stella-bikes', { bg: '#3D4673', text: '#F1F7F8' }],
     ['festival-via-crucis', { bg: '#C4CEC7', text: '#2D3234' }],
+    ['restaurante-yaki', { bg: '#AD3F9D', text: '#F1F7F8' }],
   ]);
 
   setTheme(bg: string, text: string) {

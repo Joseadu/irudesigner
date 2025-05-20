@@ -39,5 +39,9 @@ export const routes: Routes = [
     {
         path: 'festival-via-crucis',
         component: DeporteMujerComponent
+    },
+    {
+        path: 'restaurante-yaki',
+        component: DeporteMujerComponent
     }
 ];
