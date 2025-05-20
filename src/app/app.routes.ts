@@ -6,6 +6,10 @@ import { DagenhamComponent } from './pages/dagenham/dagenham.component';
 import { ClarityAIComponent } from './pages/clarity-ai/clarity-ai.component';
 import { BarkersOfKengsingtonComponent } from './pages/barkers-of-kengsington/barkers-of-kengsington.component';
 import { DeporteMujerComponent } from './pages/deporte-mujer/deporte-mujer.component';
+import { StellaBikesComponent } from './pages/stella-bikes/stella-bikes.component';
+import { FestivalViaCrucisComponent } from './pages/festival-via-crucis/festival-via-crucis.component';
+import { RestauranteYakiComponent } from './pages/restaurante-yaki/restaurante-yaki.component';
+import { HotelAlamedaComponent } from './pages/hotel-alameda/hotel-alameda.component';
 
 export const routes: Routes = [
     {
@@ -34,14 +38,18 @@ export const routes: Routes = [
     },
     {
         path: 'stella-bikes',
-        component: DeporteMujerComponent
+        component: StellaBikesComponent
     },
     {
         path: 'festival-via-crucis',
-        component: DeporteMujerComponent
+        component: FestivalViaCrucisComponent
     },
     {
         path: 'restaurante-yaki',
-        component: DeporteMujerComponent
+        component: RestauranteYakiComponent
+    },
+    {
+        path: 'hotel-alameda',
+        component: HotelAlamedaComponent
     }
 ];
