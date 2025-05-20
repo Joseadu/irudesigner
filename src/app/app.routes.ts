@@ -5,6 +5,7 @@ import { ConcilioComponent } from './pages/concilio/concilio.component';
 import { DagenhamComponent } from './pages/dagenham/dagenham.component';
 import { ClarityAIComponent } from './pages/clarity-ai/clarity-ai.component';
 import { BarkersOfKengsingtonComponent } from './pages/barkers-of-kengsington/barkers-of-kengsington.component';
+import { DeporteMujerComponent } from './pages/deporte-mujer/deporte-mujer.component';
 
 export const routes: Routes = [
     {
@@ -26,5 +27,9 @@ export const routes: Routes = [
     {
         path: 'barkers-of-kensington',
         component: BarkersOfKengsingtonComponent
+    },
+    {
+        path: 'deporte-mujer',
+        component: DeporteMujerComponent
     }
 ];
