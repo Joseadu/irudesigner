@@ -14,3 +14,7 @@
 .group-gap {
     gap: 52px;
 }
+
+.left-auto {
+    margin-left: auto;
+}

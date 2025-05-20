@@ -13,7 +13,8 @@ export class ThemeService {
     ['tooting-police-station', { bg: '#6F45D7', text: '#F1F7F8' }],
     ['concilio', { bg: '#FEE50E', text: '#2D3234' }],
     ['dagenham', { bg: '#C44522', text: '#F1F7F8' }],
-    ['clarity-ai', { bg: '#9DEAD3', text: '#2D3234' }]
+    ['clarity-ai', { bg: '#9DEAD3', text: '#2D3234' }],
+    ['barkers-of-kensington', { bg: '#39493A', text: '#F1F7F8' }],
   ]);
 
   setTheme(bg: string, text: string) {

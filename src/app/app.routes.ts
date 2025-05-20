@@ -3,6 +3,8 @@ import { WorkComponent } from './pages/work/work.component';
 import { TootingPoliceStationComponent } from './pages/tooting-police-station/tooting-police-station.component';
 import { ConcilioComponent } from './pages/concilio/concilio.component';
 import { DagenhamComponent } from './pages/dagenham/dagenham.component';
+import { ClarityAIComponent } from './pages/clarity-ai/clarity-ai.component';
+import { BarkersOfKengsingtonComponent } from './pages/barkers-of-kengsington/barkers-of-kengsington.component';
 
 export const routes: Routes = [
     {
@@ -20,5 +22,9 @@ export const routes: Routes = [
     {
         path: 'dagenham',
         component: DagenhamComponent
+    },
+    {
+        path: 'barkers-of-kensington',
+        component: BarkersOfKengsingtonComponent
     }
 ];
