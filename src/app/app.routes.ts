@@ -31,5 +31,9 @@ export const routes: Routes = [
     {
         path: 'deporte-mujer',
         component: DeporteMujerComponent
+    },
+    {
+        path: 'stella-bikes',
+        component: DeporteMujerComponent
     }
 ];
