@@ -35,5 +35,9 @@ export const routes: Routes = [
     {
         path: 'stella-bikes',
         component: DeporteMujerComponent
+    },
+    {
+        path: 'festival-via-crucis',
+        component: DeporteMujerComponent
     }
 ];

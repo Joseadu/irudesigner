@@ -16,6 +16,7 @@ export class ThemeService {
     ['barkers-of-kensington', { bg: '#39493A', text: '#F1F7F8' }],
     ['deporte-mujer', { bg: '#262626', text: '#F1F7F8' }],
     ['stella-bikes', { bg: '#3D4673', text: '#F1F7F8' }],
+    ['festival-via-crucis', { bg: '#C4CEC7', text: '#2D3234' }],
   ]);
 
   setTheme(bg: string, text: string) {
