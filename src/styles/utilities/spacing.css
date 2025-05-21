@@ -18,3 +18,14 @@
 .left-auto {
     margin-left: auto;
 }
+
+.xl-pt-64 {
+    padding-top: 64px;
+}
+
+.xl-pe-12 {
+    padding-right: 12px;
+}
+.xl-ps-12 {
+    padding-left: 12px;
+}

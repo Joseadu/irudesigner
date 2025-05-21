@@ -46,7 +46,7 @@ export class ThemeService {
   }
 
   resetBodyStyles() {
-    document.body.style.backgroundColor = '#ffffff';
+    document.body.style.backgroundColor = '#F1F7F8';
     document.body.style.color = '#000000';
   }
 }

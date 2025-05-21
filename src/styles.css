@@ -1,5 +1,6 @@
 @import url(./styles/layout.css);
 @import url(./styles/utilities/utilities.css);
+@import url(./styles/variables/_typography.css);
 
 *,
 *::before,
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Safiro, sans-serif;
     font-style: normal;
     font-weight: 400;
     min-height: 100vh;
