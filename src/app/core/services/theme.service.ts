@@ -22,6 +22,8 @@ export class ThemeService {
     ['weekend-festival', { bg: '#97A5D2', text: '#2D3234' }],
     ['revista-yorokobu', { bg: '#88C0B3', text: '#2D3234' }],
     ['el-convento-centro-social', { bg: '#011D45', text: '#F1F7F8' }],
+    ['choose-packaging', { bg: '#D0C9BD', text: '#2D3234' }],
+    ['nixon', { bg: '#067E71', text: '#F1F7F8' }],
   ]);
 
   setTheme(bg: string, text: string) {

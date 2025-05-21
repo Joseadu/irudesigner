@@ -13,6 +13,8 @@ import { HotelAlamedaComponent } from './pages/hotel-alameda/hotel-alameda.compo
 import { WeekendFestivalComponent } from './pages/weekend-festival/weekend-festival.component';
 import { RevistaYorokobuComponent } from './pages/revista-yorokobu/revista-yorokobu.component';
 import { ElConventoCentroSocialComponent } from './pages/el-convento-centro-social/el-convento-centro-social.component';
+import { NixonComponent } from './pages/nixon/nixon.component';
+import { ChoosePackagingComponent } from './pages/choose-packaging/choose-packaging.component';
 
 export const routes: Routes = [
     {
@@ -66,5 +68,13 @@ export const routes: Routes = [
     {
         path: 'el-convento-centro-social',
         component: ElConventoCentroSocialComponent
+    },
+    {
+        path: 'choose-packaging',
+        component: ChoosePackagingComponent
+    },
+    {
+        path: 'nixon',
+        component: NixonComponent
     }
 ];
