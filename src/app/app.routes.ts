@@ -10,6 +10,7 @@ import { StellaBikesComponent } from './pages/stella-bikes/stella-bikes.componen
 import { FestivalViaCrucisComponent } from './pages/festival-via-crucis/festival-via-crucis.component';
 import { RestauranteYakiComponent } from './pages/restaurante-yaki/restaurante-yaki.component';
 import { HotelAlamedaComponent } from './pages/hotel-alameda/hotel-alameda.component';
+import { WeekendFestivalComponent } from './pages/weekend-festival/weekend-festival.component';
 
 export const routes: Routes = [
     {
@@ -51,5 +52,9 @@ export const routes: Routes = [
     {
         path: 'hotel-alameda',
         component: HotelAlamedaComponent
+    },
+    {
+        path: 'weekend-festival',
+        component: WeekendFestivalComponent
     }
 ];

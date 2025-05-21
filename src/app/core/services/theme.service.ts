@@ -19,6 +19,7 @@ export class ThemeService {
     ['festival-via-crucis', { bg: '#C4CEC7', text: '#2D3234' }],
     ['restaurante-yaki', { bg: '#AD3F9D', text: '#F1F7F8' }],
     ['hotel-alameda', { bg: '#BB5117', text: '#F1F7F8' }],
+    ['weekend-festival', { bg: '#97A5D2', text: '#2D3234' }],
   ]);
 
   setTheme(bg: string, text: string) {
