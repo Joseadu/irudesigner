@@ -21,6 +21,7 @@ export class ThemeService {
     ['hotel-alameda', { bg: '#BB5117', text: '#F1F7F8' }],
     ['weekend-festival', { bg: '#97A5D2', text: '#2D3234' }],
     ['revista-yorokobu', { bg: '#88C0B3', text: '#2D3234' }],
+    ['el-convento-centro-social', { bg: '#011D45', text: '#F1F7F8' }],
   ]);
 
   setTheme(bg: string, text: string) {
