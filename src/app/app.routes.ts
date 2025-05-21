@@ -11,6 +11,7 @@ import { FestivalViaCrucisComponent } from './pages/festival-via-crucis/festival
 import { RestauranteYakiComponent } from './pages/restaurante-yaki/restaurante-yaki.component';
 import { HotelAlamedaComponent } from './pages/hotel-alameda/hotel-alameda.component';
 import { WeekendFestivalComponent } from './pages/weekend-festival/weekend-festival.component';
+import { RevistaYorokobuComponent } from './pages/revista-yorokobu/revista-yorokobu.component';
 
 export const routes: Routes = [
     {
@@ -56,5 +57,9 @@ export const routes: Routes = [
     {
         path: 'weekend-festival',
         component: WeekendFestivalComponent
+    },
+    {
+        path: 'revista-yorokobu',
+        component: RevistaYorokobuComponent
     }
 ];
