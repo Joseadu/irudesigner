@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ElConventoComponent } from './el-convento.component';
 
-import { ElConventoCentroSocialComponent } from './el-convento-centro-social.component';
 
 describe('ElConventoCentroSocialComponent', () => {
-  let component: ElConventoCentroSocialComponent;
-  let fixture: ComponentFixture<ElConventoCentroSocialComponent>;
+  let component: ElConventoComponent;
+  let fixture: ComponentFixture<ElConventoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ElConventoCentroSocialComponent]
+      imports: [ElConventoComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ElConventoCentroSocialComponent);
+    fixture = TestBed.createComponent(ElConventoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

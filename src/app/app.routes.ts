@@ -12,11 +12,11 @@ import { RestauranteYakiComponent } from './pages/restaurante-yaki/restaurante-y
 import { HotelAlamedaComponent } from './pages/hotel-alameda/hotel-alameda.component';
 import { WeekendFestivalComponent } from './pages/weekend-festival/weekend-festival.component';
 import { RevistaYorokobuComponent } from './pages/revista-yorokobu/revista-yorokobu.component';
-import { ElConventoCentroSocialComponent } from './pages/el-convento-centro-social/el-convento-centro-social.component';
 import { NixonComponent } from './pages/nixon/nixon.component';
 import { ChoosePackagingComponent } from './pages/choose-packaging/choose-packaging.component';
 import { CliffhangerMagazineComponent } from './pages/cliffhanger-magazine/cliffhanger-magazine.component';
 import { PortadaCursivasComponent } from './pages/portada-cursivas/portada-cursivas.component';
+import { ElConventoComponent } from './pages/el-convento-centro-social/el-convento.component';
 
 export const routes: Routes = [
     {
@@ -68,8 +68,8 @@ export const routes: Routes = [
         component: RevistaYorokobuComponent
     },
     {
-        path: 'el-convento-centro-social',
-        component: ElConventoCentroSocialComponent
+        path: 'el-convento',
+        component: ElConventoComponent
     },
     {
         path: 'choose-packaging',
