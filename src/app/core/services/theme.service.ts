@@ -24,6 +24,8 @@ export class ThemeService {
     ['el-convento-centro-social', { bg: '#011D45', text: '#F1F7F8' }],
     ['choose-packaging', { bg: '#D0C9BD', text: '#2D3234' }],
     ['nixon', { bg: '#067E71', text: '#F1F7F8' }],
+    ['portada-cursivas', { bg: '#B79F41', text: '#2D3234' }],
+    ['cliffhanger-magazine', { bg: '#000000', text: '#F1F7F8' }],
   ]);
 
   setTheme(bg: string, text: string) {

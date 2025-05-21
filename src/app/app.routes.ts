@@ -15,6 +15,8 @@ import { RevistaYorokobuComponent } from './pages/revista-yorokobu/revista-yorok
 import { ElConventoCentroSocialComponent } from './pages/el-convento-centro-social/el-convento-centro-social.component';
 import { NixonComponent } from './pages/nixon/nixon.component';
 import { ChoosePackagingComponent } from './pages/choose-packaging/choose-packaging.component';
+import { CliffhangerMagazineComponent } from './pages/cliffhanger-magazine/cliffhanger-magazine.component';
+import { PortadaCursivasComponent } from './pages/portada-cursivas/portada-cursivas.component';
 
 export const routes: Routes = [
     {
@@ -76,5 +78,13 @@ export const routes: Routes = [
     {
         path: 'nixon',
         component: NixonComponent
+    },
+    {
+        path: 'portada-cursivas',
+        component: PortadaCursivasComponent
+    },
+    {
+        path: 'cliffhanger-magazine',
+        component: CliffhangerMagazineComponent
     }
 ];
