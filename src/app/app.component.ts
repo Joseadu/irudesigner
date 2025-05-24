@@ -14,47 +14,24 @@ import { CommonModule } from '@angular/common';
 export class AppComponent implements OnInit {
   constructor(
     private router: Router,
-    private themeService: ThemeService,
-    public transitionService: TransitionService // 👈 Añadido
+    public transitionService: TransitionService
   ) {}
 
   ngOnInit(): void {
-    // ✅ GESTIÓN DEL BODY (la que ya tienes)
-    this.router.events
-      .pipe(
-        filter(e => e instanceof NavigationEnd),
-        startWith(null),
-        pairwise()
+    this.router.events.pipe(
+      filter(e => e instanceof NavigationStart)
+    ).subscribe(() => {
+      this.transitionService.start();
+    });
+
+    this.router.events.pipe(
+      filter(e =>
+        e instanceof NavigationEnd ||
+        e instanceof NavigationCancel ||
+        e instanceof NavigationError
       )
-      .subscribe(([prev, curr]: any) => {
-        const from = prev?.urlAfterRedirects || '';
-        const to = curr?.urlAfterRedirects || '';
-
-        const saliendoDeWork = from === '/' || from.includes('/work');
-        const entrandoEnDetalle = to !== '/' && !to.includes('/work');
-
-        if (saliendoDeWork && entrandoEnDetalle) {
-          this.themeService.resetBodyStyles();
-        }
-      });
-
-    // ✅ GESTIÓN DE LA ANIMACIÓN DE CARGA (nueva)
-    this.router.events
-      .pipe(filter(e => e instanceof NavigationStart))
-      .subscribe(() => {
-        this.transitionService.start();
-      });
-
-    this.router.events
-      .pipe(
-        filter(e =>
-          e instanceof NavigationEnd ||
-          e instanceof NavigationCancel ||
-          e instanceof NavigationError
-        )
-      )
-      .subscribe(() => {
-        this.transitionService.stop(2000); // al menos 2s de overlay
-      });
+    ).subscribe(() => {
+      this.transitionService.stop(2000);
+    });
   }
 }

@@ -1,6 +1,6 @@
 .section {
     /* --padding: var(--spacing-13); */
-    padding-block: 64px;
+    padding-block: 75px;
 
     /* &[section-padding-block="nav"] {
         --padding: var(--spacing-10);

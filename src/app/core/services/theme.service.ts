@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 @Injectable({ providedIn: 'root' })
 export class ThemeService {
-  private backgroundColor: string | null = null;
-  private textColor: string | null = null;
+  private backgroundColor = new BehaviorSubject<string>('#F1F7F8');
+  private textColor = new BehaviorSubject<string>('#000000');
 
   private routeColors = new Map<string, { bg: string; text: string }>([
     ['tooting-police-station', { bg: '#6F45D7', text: '#F1F7F8' }],
@@ -29,16 +30,16 @@ export class ThemeService {
   ]);
 
   setTheme(bg: string, text: string) {
-    this.backgroundColor = bg;
-    this.textColor = text;
+    this.backgroundColor.next(bg);
+    this.textColor.next(text);
   }
 
-  getBackgroundColor(): string | null {
-    return this.backgroundColor;
+  getBackgroundColor$() {
+    return this.backgroundColor.asObservable();
   }
 
-  getTextColor(): string | null {
-    return this.textColor;
+  getTextColor$() {
+    return this.textColor.asObservable();
   }
 
   getColorsForRoute(route: string): { bg: string; text: string } | null {
@@ -47,6 +48,16 @@ export class ThemeService {
 
   resetBodyStyles() {
     document.body.style.backgroundColor = '#F1F7F8';
-    document.body.style.color = '#000000';
+    document.body.style.color = '#114653';
+  }
+
+  setHoverColors(bg: string, text: string) {
+    this.backgroundColor.next(bg);
+    this.textColor.next(text);
+  }
+
+  resetHoverColors() {
+    this.backgroundColor.next('#F1F7F8');
+    this.textColor.next('#000000');
   }
 }

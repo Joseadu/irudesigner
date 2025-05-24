@@ -29,7 +29,7 @@ export class TransitionService {
   stop(afterMs: number = 0) {
     setTimeout(() => {
       this.loadingSubject.next(false);
-      this.resetBackground(); // 🔁 resetea al terminar
+      this.resetBackground();
     }, afterMs);
   }
 }

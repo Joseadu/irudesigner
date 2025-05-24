@@ -24,6 +24,10 @@ export const routes: Routes = [
         component: WorkComponent
     },
     {
+        path: 'clarity-ai',
+        component: ClarityAIComponent
+    },
+    {
         path: 'tooting-police-station',
         component: TootingPoliceStationComponent
     },

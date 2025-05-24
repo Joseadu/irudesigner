@@ -1,7 +1,7 @@
 <div
   *ngIf="(transitionService.isLoading$ | async)"
   class="route-loading-overlay"
-  [ngStyle]="{ 'background-color': (transitionService.backgroundColor$ | async) }"
+  [style.background-color]="transitionService.backgroundColor$ | async"
 >
   <div class="spinner"></div>
 </div>
