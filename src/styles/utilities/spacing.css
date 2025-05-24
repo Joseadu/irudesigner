@@ -4,8 +4,14 @@
 .col-8 {
     width: calc(100% * .6);
 }
+.col-10 {
+    width: calc(100% * .8);
+}
 .col-6 {
     width: 50%;
+}
+.col-7 {
+    width: 60%;
 }
 .col-4 {
     width: calc(100% * .4);
@@ -15,8 +21,15 @@
     gap: 52px;
 }
 
-.left-auto {
+.mx-auto {
+    margin: 0 auto;
+}
+.ms-auto {
     margin-left: auto;
+}
+.right-no-auto {
+    margin-left: 50%;
+    transform: translateX(-60%);
 }
 
 .xl-pt-64 {
@@ -28,4 +41,8 @@
 }
 .xl-ps-12 {
     padding-left: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
 }

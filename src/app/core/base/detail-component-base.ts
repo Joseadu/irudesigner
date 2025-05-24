@@ -17,8 +17,9 @@ export abstract class DetailComponentBase implements OnInit {
     if (colors) {
       this.backgroundColor = colors.bg;
       this.textColor = colors.text;
-    }
 
-    this.themeService.resetBodyStyles();
+      // Añade esta línea
+      this.themeService.setTheme(colors.bg, colors.text);
+    }
   }
 }

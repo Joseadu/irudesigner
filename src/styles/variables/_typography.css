@@ -4,3 +4,10 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.text-light {
+    color: #F1F7F8;
+}
+.text-dark {
+    color: #2D3234;
+}

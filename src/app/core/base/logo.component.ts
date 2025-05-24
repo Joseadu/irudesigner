@@ -8,10 +8,19 @@ import { RouterLink } from '@angular/router';
   selector: 'app-logo',
   standalone: true,
   imports: [CommonModule, RouterLink],
+  styles: [`
+    .main-logo {
+      cursor: pointer;
+    }
+    .main-logo:focus {
+      border: none;
+      outline: none;
+    }
+  `],
   template: `
     <svg
       routerLink="/"
-      style="cursor: pointer;"
+      class="main-logo"
       xmlns="http://www.w3.org/2000/svg"
       height="36"
       viewBox="0 0 400 204.9"
