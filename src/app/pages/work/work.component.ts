@@ -14,7 +14,7 @@ import { HeaderComponent } from '../../shared/header/header.component';
 
 @Component({
   selector: 'app-projects',
-  imports: [RouterLink, HeaderComponent],
+  imports: [RouterLink],
   templateUrl: './work.component.html',
   styleUrl: './work.component.css',
 })

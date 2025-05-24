@@ -2,13 +2,16 @@ import { Component, ElementRef, inject, OnDestroy, OnInit, Renderer2 } from '@an
 import { ThemeService } from '../services/theme.service';
 import { Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-logo',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   template: `
     <svg
+      routerLink="/"
+      style="cursor: pointer;"
       xmlns="http://www.w3.org/2000/svg"
       height="36"
       viewBox="0 0 400 204.9"
