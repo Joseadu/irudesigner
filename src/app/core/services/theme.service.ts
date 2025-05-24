@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 @Injectable({ providedIn: 'root' })
 export class ThemeService {
   private backgroundColor = new BehaviorSubject<string>('#F1F7F8');
-  private textColor = new BehaviorSubject<string>('#000000');
+  private textColor = new BehaviorSubject<string>('#114653');
 
   private routeColors = new Map<string, { bg: string; text: string }>([
     ['tooting-police-station', { bg: '#6F45D7', text: '#F1F7F8' }],
@@ -58,6 +58,6 @@ export class ThemeService {
 
   resetHoverColors() {
     this.backgroundColor.next('#F1F7F8');
-    this.textColor.next('#000000');
+    this.textColor.next('#114653');
   }
 }
