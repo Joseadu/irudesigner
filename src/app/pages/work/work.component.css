@@ -1,0 +1,30 @@
+.filters {
+    padding-inline: 16px;
+    margin-bottom: -40px;
+    z-index: 10;
+}
+
+.filters span {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.filters span.active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.group {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: auto;
+  height: auto;
+}
+
+.group.hidden {
+  display: none;
+  transform: scale(0.95);
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}

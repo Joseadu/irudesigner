@@ -11,61 +11,104 @@ import { ThemeService } from '../../core/services/theme.service';
 import { TransitionService } from '../../core/services/transition.service';
 import { LogoComponent } from '../../core/base/logo.component';
 import { HeaderComponent } from '../../shared/header/header.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
-  imports: [RouterLink],
+  imports: [RouterLink, CommonModule],
   templateUrl: './work.component.html',
   styleUrl: './work.component.css',
 })
 export class WorkComponent implements AfterViewInit, OnDestroy {
   @ViewChild('wrapper') wrapperRef!: ElementRef;
+  filteredProjects: HTMLElement[] = [];
 
-  workBasic = [
-    /* ... */
+  categories = [
+    'All',
+    'Rebranding',
+    'Branding',
+    'Brand Identity',
+    'Identidad Visual',
+    'Cartelería',
+    'UX/UI',
+    'Video',
+    'Fotografía',
+    'Impresión Digital',
+    'Diseño Gráfico',
+    'Diseño Digital',
+    'Diseño Web',
+    'Diseño Editorial',
+    'Motion',
+    'Packaging',
+    'Merchandising',
+    'Ilustración',
+    'Infografía',
+    'Campaña de Márketing',
   ];
+  selectedCategory = 'All';
 
-  constructor(private themeService: ThemeService, private el: ElementRef, private transitionService: TransitionService) {}
+  constructor(
+    private themeService: ThemeService,
+    private el: ElementRef,
+    private transitionService: TransitionService
+  ) {}
 
-ngAfterViewInit() {
-  const links = this.el.nativeElement.querySelectorAll('.group-link');
-  links.forEach((link: HTMLElement) => {
-    const route = link.getAttribute('routerLink');
-    if (!route) return;
+  ngAfterViewInit() {
+    const links = this.el.nativeElement.querySelectorAll('.group-link');
+    links.forEach((link: HTMLElement) => {
+      const route = link.getAttribute('routerLink');
+      if (!route) return;
 
-    const color = this.themeService.getColorsForRoute(route);
-    if (color) {
-      link.setAttribute('data-primary-color', color.bg);
-      link.setAttribute('data-text-color', color.text);
+      const color = this.themeService.getColorsForRoute(route);
+      if (color) {
+        link.setAttribute('data-primary-color', color.bg);
+        link.setAttribute('data-text-color', color.text);
 
-      link.addEventListener('click', () => {
-        this.transitionService.setBackground(color.bg);
-      });
-    }
-  });
-}
-
+        link.addEventListener('click', () => {
+          this.transitionService.setBackground(color.bg);
+        });
+      }
+    });
+  }
 
   ngOnDestroy(): void {
     this.resetBg();
   }
 
   changeBg(event: MouseEvent): void {
-  const target = event.target as HTMLElement;
-  const bg = target.getAttribute('data-primary-color');
-  const text = target.getAttribute('data-text-color');
+    const target = event.target as HTMLElement;
+    const bg = target.getAttribute('data-primary-color');
+    const text = target.getAttribute('data-text-color');
 
-  if (bg && text) {
-    document.body.style.transition =
-      'background-color 0.6s ease, color 0.3s ease';
-    document.body.style.backgroundColor = bg;
-    document.body.style.color = text;
-    this.themeService.setHoverColors(bg, text);
+    if (bg && text) {
+      document.body.style.transition =
+        'background-color 0.6s ease, color 0.3s ease';
+      document.body.style.backgroundColor = bg;
+      document.body.style.color = text;
+      this.themeService.setHoverColors(bg, text);
+    }
   }
-}
 
-resetBg(): void {
-  this.themeService.resetHoverColors();
-  this.themeService.resetBodyStyles();
+  resetBg(): void {
+    this.themeService.resetHoverColors();
+    this.themeService.resetBodyStyles();
+  }
+
+filterByCategory(category: string): void {
+  this.selectedCategory = category;
+
+  const wrapperEl = this.wrapperRef.nativeElement as HTMLElement;
+  const projectGroups = Array.from(wrapperEl.querySelectorAll('.group')) as HTMLElement[];
+
+  projectGroups.forEach(group => {
+    const categories = group.getAttribute('data-categories')?.split(',').map(c => c.trim()) || [];
+    const shouldShow = category === 'All' || categories.includes(category);
+
+    if (shouldShow) {
+      group.classList.remove('hidden');
+    } else {
+      group.classList.add('hidden');
+    }
+  });
 }
 }
