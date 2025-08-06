@@ -3,10 +3,11 @@ import { LogoComponent } from '../../core/base/logo.component';
 import { ThemeService } from '../../core/services/theme.service';
 import { Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, LogoComponent],
+  imports: [CommonModule, LogoComponent, RouterLink, RouterLinkActive],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

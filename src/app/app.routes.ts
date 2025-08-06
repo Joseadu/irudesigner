@@ -17,10 +17,15 @@ import { ChoosePackagingComponent } from './pages/choose-packaging/choose-packag
 import { CliffhangerMagazineComponent } from './pages/cliffhanger-magazine/cliffhanger-magazine.component';
 import { PortadaCursivasComponent } from './pages/portada-cursivas/portada-cursivas.component';
 import { ElConventoComponent } from './pages/el-convento-centro-social/el-convento.component';
+import { AboutComponent } from './pages/about/about.component';
 
 export const routes: Routes = [
     {
-        path: '',
+        path: 'sobre-mi',
+        component: AboutComponent
+    },
+    {
+        path: 'proyectos',
         component: WorkComponent
     },
     {

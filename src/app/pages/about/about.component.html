@@ -1,0 +1,101 @@
+<section class="section menu-spacing">
+  <div class="wrapper">
+    <div class="about-submenu">
+      <div class="nav-wrapper">
+        <ul class="nav" #nav>
+          <li *ngFor="let tab of tabs">
+            <a [class.active]="selectedTab === tab.key" (click)="selectTab(tab.key)" #tabElement
+              [attr.data-key]="tab.key">
+              {{ tab.label }}
+            </a>
+          </li>
+        </ul>
+        <div class="underline" [ngStyle]="underlineStyle"></div>
+      </div>
+    </div>
+
+    <div class="tab-content">
+      <ng-container [ngSwitch]="selectedTab">
+        <div *ngSwitchCase="'sobre-mi'">
+          <div class="section">
+            <div class="info">
+              <div class="col-6">
+                <p class="iru-description text-index-10">
+                  ¡Hola! Mi nombre es Irene, soy diseñadora gráfica especializada en branding. El diseño siempre ha formado parte de mi vida: crecer en una imprenta, entre cartas de color, olor a tinta y papeles, no me dejó muchas más opciones. En mi camino de desentrañar el secreto de comunicar con imágenes, empecé a estudiar audiovisuales y me topé con el diseño gráfico. 
+                </p>
+                <p class="iru-description text-index-10">
+                  «El diseño está en todas partes», me decían, y descubrir qué hace que unos funcione y otros no se volvió mi nueva misión.
+                </p>
+              </div>
+              <div class="col-6">
+                <div class="iru-photo">
+                  <img src="assets\images\barkers\barkers-500.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="col-8 mx-auto">
+              <div class="about-section">
+                <span class="date">JULIO 2022-Actualidad (REMOTO)</span>
+                <span class="position">Diseñadora Visual - Clarity AI</span>
+                <p class="job-description">
+                  Lideré el equipo de diseño y desarrollo web, realizando tareas de diseño gráfico, branding, diseño editorial, diseño web y motion graphics (ver proyecto Concilio Comms).
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">Marzo 2021 - Marzo 2022 (LONDRES)</span>
+                <span class="position">Jefa de Diseño - Concilio Communications</span>
+                <p class="job-description">
+                  Lideré el equipo de diseño y desarrollo web, realizando tareas de diseño gráfico, branding, diseño editorial, diseño web y motion graphics (ver proyecto Concilio Comms).
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">AGOSTO 2020 - DICIEMBRE 2020 (LONDRES)</span>
+                <span class="position">Diseñadora Gráfica - Wrangle</span>
+                <p class="job-description">
+                  Desarrollé como freelance la Identidad Visual de esta start-up desde el inicio, realizando trabajos de diseño gráfico para redes sociales, diseño editorial, ilustración y publicidad impresa.
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">AGOSTO 2020 - DICIEMBRE 2020 (LONDRES)</span>
+                <span class="position">Diseñadora Gráfica Marketing - UPL Vision</span>
+                <p class="job-description">
+                  Realicé trabajos como freelance de diseño gráfico orientado al marketing digital y redes sociales, así como motion graphics y animaciones, email marketing para la Agencia de Diseño UPL que trabaja principalmente con marcas relacionadas con el mercado del cuidado personal.
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">SEPTIEMBRE 2020 - NOVIEMBRE 2020 (LONDRES)</span>
+                <span class="position">Diseñadora Gráfica Asociada - Hansuke Consulting</span>
+                <p class="job-description">
+                  Lideré la creación de la identidad visual y elementos de marketing para su conferencia anual, así como otros trabajos de diseño colaterales para marketing online como freelance.
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">MARZO 2017 - MARZO 2019 (MÁLAGA)</span>
+                <span class="position">Jefa de Comunicación Audiovisual - Área de Deportes, Diputación de Málaga</span>
+                <p class="job-description">
+                  Creamos el Gabinete de Comunicación del Servicio de Deportes, liderando la parte audiovisual realicé tareas de producción de fotografía y video deportivo y de eventos, diseño gráfico, maquetación, identidad corporativa, diseño colateral para marketing y redes sociales (ver proyecto +deporte +mujer).
+                </p>
+              </div>
+              <div class="about-section">
+                <span class="date">MARZO 2014- DICIEMBRE 2019 (FUENGIROLA)</span>
+                <span class="position">Diseñadora gráfica y fotógrafa</span>
+                <p class="job-description">
+                  Colaboraciones como freelancer en la empresa familiar realizando fotografía de productos para publicidad, diseño gráfico orientado a la impresión digital de gran formato, diseño editorial, merchandising y cartelería.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p *ngSwitchCase="'que-hago'">Contenido de QUÉ HAGO</p>
+        <p *ngSwitchCase="'como-lo-hago'">Contenido de CÓMO LO HAGO</p>
+        <p *ngSwitchCase="'clientes'">Contenido de CLIENTES</p>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<div style="width: 100%; height: 200px; background-color: #114653;">
+
+</div>

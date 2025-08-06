@@ -17,7 +17,7 @@
     --wrapper-padding: 0; */
 
     /* max-width: var(--wrapper-max-width); */
-    padding-inline: 26px;
+    padding-inline: 120px;
     box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
