@@ -57,7 +57,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #2D3234;
+  background-color: #114653;
 }
 .nav li a.active::after {
   content: '';
