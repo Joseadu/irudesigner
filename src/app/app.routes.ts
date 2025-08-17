@@ -18,6 +18,7 @@ import { CliffhangerMagazineComponent } from './pages/cliffhanger-magazine/cliff
 import { PortadaCursivasComponent } from './pages/portada-cursivas/portada-cursivas.component';
 import { ElConventoComponent } from './pages/el-convento-centro-social/el-convento.component';
 import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -27,6 +28,10 @@ export const routes: Routes = [
     {
         path: 'proyectos',
         component: WorkComponent
+    },
+    {
+        path: 'contacto',
+        component: ContactComponent
     },
     {
         path: 'clarity-ai',
