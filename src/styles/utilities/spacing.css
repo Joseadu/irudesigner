@@ -17,6 +17,17 @@
     width: calc(100% * .4);
 }
 
+.col-md-6 {
+    @media (width < 1140px) {
+        width: 50%;
+    }
+}
+.col-sm-12 {
+    @media (width < 768px) {
+        width: 100%;
+    }
+}
+
 .group-gap {
     gap: 52px;
 }
@@ -34,6 +45,13 @@
 
 .xl-pt-64 {
     padding-top: 64px;
+
+    @media (width < 1140px) {
+        padding-top: 52px;
+    }
+    @media (width < 768px) {
+        padding-top: 36px;
+    }
 }
 
 .xl-pe-12 {

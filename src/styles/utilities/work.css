@@ -5,6 +5,10 @@
     transform: scale(1);
     transition: opacity 0.4s ease, transform 0.4s ease;
     pointer-events: auto;
+
+    @media (width < 1140px) {
+        padding-inline: 8px;
+    }
 }
 .grid-block {
     position: relative;
@@ -34,16 +38,36 @@
 .group-caption {
     padding-top: 32px;
     gap: 4px;
+
+    @media (width < 1140px) {
+        padding-top: 20px;
+    }
+    @media (width < 768px) {
+        padding-top: 16px;
+    }
+
     > .title {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 21px;
+        line-height: 25px;
         font-weight: 300;
         text-transform: uppercase;
+
+        @media (width < 1140px) {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        @media (width < 768px) {
+            font-size: 18px;
+            line-height: 24px;
+        }
     }
     > .subtitle {
         font-size: 14px;
         line-height: 19px;
         font-weight: 300;
+        @media (width < 768px) {
+            margin-top: -4px;
+        }
     }
 }
 

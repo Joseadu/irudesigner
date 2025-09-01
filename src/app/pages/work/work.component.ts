@@ -12,10 +12,11 @@ import { TransitionService } from '../../core/services/transition.service';
 import { LogoComponent } from '../../core/base/logo.component';
 import { HeaderComponent } from '../../shared/header/header.component';
 import { CommonModule } from '@angular/common';
+import { BadgeComponent } from '../../shared/badge/badge.component';
 
 @Component({
   selector: 'app-projects',
-  imports: [RouterLink, CommonModule],
+  imports: [RouterLink, CommonModule, BadgeComponent],
   templateUrl: './work.component.html',
   styleUrl: './work.component.css',
 })

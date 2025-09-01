@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ThemeService } from '../../core/services/theme.service';
 import { RouterLink } from '@angular/router';
@@ -28,7 +28,7 @@ import { ServicesItemsService } from './services/services-items.service';
     ]),
   ],
 })
-export class AboutComponent implements AfterViewInit, OnInit {
+export class AboutComponent implements AfterViewInit, OnInit, OnDestroy {
   tabs = [
     { key: 'sobre-mi', label: 'SOBRE MI' },
     { key: 'que-hago', label: 'QUÉ HAGO' },
@@ -57,6 +57,11 @@ export class AboutComponent implements AfterViewInit, OnInit {
     document.body.style.background = '#D7ECED';
     // Cargar los items de servicios
     this.qhItems = this.serviesItems.qhItems;
+  }
+
+  ngOnDestroy(): void {
+    this.themeService.setTheme('#F1F7F8', '#114653');
+    document.body.style.background = '#F1F7F8';
   }
 
   ngAfterViewInit() {

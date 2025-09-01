@@ -1,7 +1,21 @@
 .title {
-        font-size: 60px;
-        line-height: 89px;
+        font-size: 89px;
+        line-height: 100px;
         font-weight: 400;
+
+        @media (width < 1450px) {
+          font-size: 60px;
+          line-height: 72px;
+        }
+        @media (width < 1140px) {
+          font-size: 56px;
+          line-height: 64px;
+        }
+        @media (width < 768px) {
+          font-size: 36px;
+          line-height: 52px;
+          margin-top: -34px;
+        }
     }
 .text-index-10 {
   text-indent: 10%;

@@ -10,11 +10,21 @@
     padding: 16px 40px;
     z-index: 1000;
     transition: background-color 0.6s ease, color 0.3s ease;
+
+    @media (width < 992px) {
+      padding: 16px 20px;
+    }
+    @media (width < 768px) {
+      padding: 8px 8px;
+    }
 }
 
 .brand-logo {
     width: 72px;
     cursor: pointer;
+    @media (width < 768px) {
+      width: 60px;
+    }
 }
 
 .nav {
@@ -23,7 +33,7 @@
     gap: 32px;
 
     >li>a {
-        font-size: 18px;
+        font-size: 12px;
         text-transform: uppercase;
         color: #114653;
     }
@@ -57,7 +67,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #114653;
+  background-color: var(--text-color, #114653);
+  transition: all 0.3s ease;
 }
 .nav li a.active::after {
   content: '';
@@ -68,7 +79,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #114653;
+  background-color: var(--text-color, #114653);
+  transition: all 0.3s ease;
 }
 
 .nav li a:hover span {

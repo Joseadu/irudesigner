@@ -10,7 +10,7 @@ export class ThemeService {
   textColor = new BehaviorSubject<string>('#114653');
 
   private routeColors = new Map<string, { bg: string; text: string }>([
-    ['/proyectos/sobre-mi', { bg: '#D7ECED', text: '#F1F7F8' }],
+    ['/proyectos/sobre-mi', { bg: '#95E9D0', text: '#2D3234' }],
     ['/proyectos/tooting-police-station', { bg: '#6F45D7', text: '#F1F7F8' }],
     ['/proyectos/concilio', { bg: '#FEE50E', text: '#2D3234' }],
     ['/proyectos/dagenham', { bg: '#C44522', text: '#F1F7F8' }],
