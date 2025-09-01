@@ -1,3 +1,8 @@
+.title {
+        font-size: 60px;
+        line-height: 89px;
+        font-weight: 400;
+    }
 .text-index-10 {
   text-indent: 10%;
 }

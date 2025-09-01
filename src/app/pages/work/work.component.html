@@ -1,31 +1,8 @@
 <!-- <app-header></app-header> -->
 <section class="section">
     <div #wrapper class="wrapper">
-        <nav class="filters">
-         <span *ngFor="let cat of categories" 
-               (click)="filterByCategory(cat)" 
-               [class.active]="selectedCategory === cat">
-           {{ cat }}
-         </span>
-       </nav>
-        <div class="col-8 group xl-pt-64" data-categories="Brand Identity, Web Design">
-            <div class="grid-block">
-                <a routerLink="/proyectos/clarity-ai" class="group-link" (mouseenter)="changeBg($event)" (mouseleave)="resetBg()"></a>
-                <div class="media" style="width: 100%; position: relative;">
-                    <img src="assets/images/bg-1.svg" style="width: 100%; height: auto; display: block;" alt="">
-                </div>
-                <div class="group-caption d-flex d-column">
-                    <h4 class="title">Clarity AI</h4>
-                    <p class="subtitle">Rebranding, identidad Visual, diseño UI/UX, diseño gráfico, diseño web y diseño
-                        editorial</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 group xl-pt-64">
-            <div class="page-caption d-flex d-column">
-                <h1 class="title">Soluciones gráficas duraderas y memorables</h1>
-                <p class="subtitle">En IRU creamos identidades gráficas, sistemas visuales y diseño digital que se adaptan a las diferentes realidades y necesidades de nuestros clientes. Desde start-ups a compañías con más recorrido, nuestro enfoque es simple: nos tomamos tiempo para entender cada problema y construimos una solución que funcione como conjunto.</p>
-            </div>
+        <div class="col-10 group xl-pt-64">
+            <h1 class="title">Soluciones gráficas duraderas y memorables</h1>
         </div>
         <div class="col-6 group xl-pt-64" data-categories="Identidad Visual, Diseño Gráfico, Motion, UX/UI">
             <div class="grid-block">

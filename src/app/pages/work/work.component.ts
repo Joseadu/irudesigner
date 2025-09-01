@@ -20,32 +20,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './work.component.css',
 })
 export class WorkComponent implements AfterViewInit, OnDestroy {
-  @ViewChild('wrapper') wrapperRef!: ElementRef;
-  filteredProjects: HTMLElement[] = [];
-
-  categories = [
-    'All',
-    'Rebranding',
-    'Branding',
-    'Brand Identity',
-    'Identidad Visual',
-    'Cartelería',
-    'UX/UI',
-    'Video',
-    'Fotografía',
-    'Impresión Digital',
-    'Diseño Gráfico',
-    'Diseño Digital',
-    'Diseño Web',
-    'Diseño Editorial',
-    'Motion',
-    'Packaging',
-    'Merchandising',
-    'Ilustración',
-    'Infografía',
-    'Campaña de Márketing',
-  ];
-  selectedCategory = 'All';
 
   constructor(
     private themeService: ThemeService,
@@ -93,22 +67,4 @@ export class WorkComponent implements AfterViewInit, OnDestroy {
     this.themeService.resetHoverColors();
     this.themeService.resetBodyStyles();
   }
-
-filterByCategory(category: string): void {
-  this.selectedCategory = category;
-
-  const wrapperEl = this.wrapperRef.nativeElement as HTMLElement;
-  const projectGroups = Array.from(wrapperEl.querySelectorAll('.group')) as HTMLElement[];
-
-  projectGroups.forEach(group => {
-    const categories = group.getAttribute('data-categories')?.split(',').map(c => c.trim()) || [];
-    const shouldShow = category === 'All' || categories.includes(category);
-
-    if (shouldShow) {
-      group.classList.remove('hidden');
-    } else {
-      group.classList.add('hidden');
-    }
-  });
-}
 }
