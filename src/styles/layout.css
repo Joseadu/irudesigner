@@ -7,9 +7,9 @@
         --padding: var(--spacing-10);
     } */
 
-    /* @media (width < 768px) {
-        --padding: var(--spacing-10);
-    } */
+    @media (width < 768px) {
+        padding-top: 59px;
+    }
 }
 
 .wrapper {
