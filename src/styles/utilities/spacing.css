@@ -65,6 +65,11 @@
 .xl-ps-12 {
     padding-left: 16px;
 }
+.sm-p-0 {
+    @media (width < 768px) {
+        padding: 0 !important;
+    }
+}
 
 .gap-32 {
     gap: 32px;
