@@ -1,11 +1,11 @@
 <header class="header" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
   <app-logo></app-logo>
   <button class="menu-toggle" (click)="toggleMenu()" [class.open]="isMenuOpen" aria-label="Toggle menu">
-    <span></span>
-    <span></span>
-    <span></span>
+    <span [ngStyle]="{'background-color': textColor }"></span>
+    <span [ngStyle]="{'background-color': textColor }"></span>
+    <span [ngStyle]="{'background-color': textColor }"></span>
   </button>
-  <ul class="nav" [class.active]="isMenuOpen">
+  <ul class="nav" [class.active]="isMenuOpen" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
     <!-- <li>
       <a href=""><span>T</span><span>R</span><span>A</span><span>B</span><span>A</span><span>J</span><span>O</span><span>S</span></a>
     </li> -->

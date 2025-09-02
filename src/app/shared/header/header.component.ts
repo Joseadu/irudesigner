@@ -46,6 +46,14 @@ export class HeaderComponent implements OnInit, OnDestroy {
           }
         })
     );
+
+    this.sub.add(
+      this.router.events
+        .pipe(filter(event => event instanceof NavigationEnd))
+        .subscribe(() => {
+          this.isMenuOpen = false;
+        })
+    );
   }
 
   ngOnDestroy() {

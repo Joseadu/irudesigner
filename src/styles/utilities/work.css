@@ -9,6 +9,9 @@
     @media (width < 1140px) {
         padding-inline: 8px;
     }
+    @media (width < 768px) {
+        padding-inline: 0px;
+    }
 }
 .grid-block {
     position: relative;
