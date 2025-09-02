@@ -15,6 +15,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   private themeService = inject(ThemeService);
   private sub = new Subscription();
 
+  isMenuOpen = false;
+
   textColor = '#114653';
   bgColor = '#D7ECED';
 
@@ -46,8 +48,11 @@ export class HeaderComponent implements OnInit, OnDestroy {
     );
   }
 
-
   ngOnDestroy() {
     this.sub.unsubscribe();
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
