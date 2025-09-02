@@ -81,6 +81,10 @@
     gap: 56px;
     padding-bottom: 26px;
 
+    @media (width < 768px) {
+        gap: 32px;
+    }
+
     .detail-info {
         width: 100%;
         display: flex;
@@ -98,12 +102,24 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+
+            @media (width < 768px) {
+                margin-top: 8px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
         }
     }
 
     .description {
         font-size: 32px;
         text-indent: 20%;
+
+        @media (width < 768px) {
+            font-size: 24px;
+            text-indent: 10%;
+        }
     }
 }
 
@@ -112,11 +128,16 @@
     flex-direction: row;
     gap: 32px;
 
+    @media (width < 768px) {
+        flex-direction: column;
+        gap: 8px;
+        padding-right: 16px;
+    }
+
     h4 {
         display: block;
         min-width: 200px;
         font-size: 28px;
         font-weight: 300;
-        /* padding-right: 52px; */
     }
 }

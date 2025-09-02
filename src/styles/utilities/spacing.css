@@ -41,6 +41,11 @@
 .right-no-auto {
     margin-left: 50%;
     transform: translateX(-60%);
+
+    @media (width < 768px) {
+        margin-left: 0;
+        transform: translateX(0);
+    }
 }
 
 .xl-pt-64 {

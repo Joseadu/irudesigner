@@ -3,11 +3,14 @@
     padding-top: 75px;
     padding-bottom: 75px;
 
-    /* &[section-padding-block="nav"] {
-        --padding: var(--spacing-10);
-    } */
-
     @media (width < 768px) {
+        &[section-padding-narrow="narrow"] {
+            padding: 40px 0;
+        }
+        &[section-no-padding-bottom-mobile="no-bottom-padding-mobile"] {
+            padding-bottom: 0;
+        }
+
         padding-top: 59px;
     }
 }

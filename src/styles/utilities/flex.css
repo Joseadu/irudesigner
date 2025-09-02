@@ -7,6 +7,11 @@
 .d-column {
     flex-direction: column;
 }
+.d-sm-column {
+    @media (width < 768px) {
+        flex-direction: column;
+    }
+}
 .align-center {
     align-items: center;
 }
