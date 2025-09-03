@@ -1,0 +1,15 @@
+<div class="slider-container">
+    <div class="slider">
+        <div class="slider-wrapper" [style.transform]="'translateX(-' + currentIndex * 100 + '%)'">
+            <div class="slide" *ngFor="let image of images">
+                <img [src]="image" alt="slide">
+            </div>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="prev" (click)="prevSlide()"><img src="assets/images/clarity-ai/slider1/Grupo 132.svg"
+                alt=""></button>
+        <button class="next" (click)="nextSlide()"><img src="assets/images/clarity-ai/slider1/Grupo 131.svg"
+                alt=""></button>
+    </div>
+</div>
