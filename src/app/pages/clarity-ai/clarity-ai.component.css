@@ -1,0 +1,47 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20%;
+}
+
+.logo-container:nth-child(2) {
+    margin-top: 40px;
+}
+
+.link-button {
+    display: inline-block;
+    width: max-content;
+    background-color: #114653;
+    padding: 12px 20px;
+    color: white;
+    font-size: 34px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #0e3740;
+    }
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 16px;
+    margin-top: 16px;
+
+    & > p {
+        width: 50%;
+    }
+}
+
+.item > p > a {
+    text-decoration: underline;
+    color: #114653;
+
+    &:hover {
+        color: #0e3740;
+        text-underline-offset: 2px;
+    }
+}

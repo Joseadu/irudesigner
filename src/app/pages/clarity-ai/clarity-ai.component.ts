@@ -30,4 +30,12 @@ export class ClarityAIComponent extends DetailComponentBase {
     'assets/images/clarity-ai/slider2/3 carrousel-05.jpg',
     'assets/images/clarity-ai/slider2/3 carrousel-06.jpg',
   ];
+  clarityAiImages3 = [
+    'assets/images/clarity-ai/1.jpg',
+    'assets/images/clarity-ai/2.jpg',
+    'assets/images/clarity-ai/3.jpg',
+    'assets/images/clarity-ai/4.jpg',
+    'assets/images/clarity-ai/5.jpg',
+    'assets/images/clarity-ai/6.png',
+  ];
 }
