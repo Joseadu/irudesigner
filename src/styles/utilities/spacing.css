@@ -2,7 +2,7 @@
     width: 100%;
 }
 .col-8 {
-    width: calc(100% * .75);
+    width: calc(100% * .666666);
 }
 .col-10 {
     width: calc(100% * .8);
@@ -14,7 +14,7 @@
     width: 60%;
 }
 .col-4 {
-    width: calc(100% * .33);
+    width: calc(100% * .3333333);
 }
 .col-3 {
     width: calc(100% * .25);

@@ -1,0 +1,7 @@
+.narrow-image {
+  @media (max-width: 768px) {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+}

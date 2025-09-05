@@ -39,6 +39,10 @@
     gap: 32px;
     object-fit: contain;
     margin-top: 32px;
+
+    @media (width < 768px) {
+      margin-top: 24px;
+    }
 }
 
 button.prev, button.next {
@@ -46,6 +50,13 @@ button.prev, button.next {
   border: none;
   font-size: 2rem;
   cursor: pointer;
+}
+
+.prev > img, .next > img {
+  @media (width < 768px) {
+    width: 48px;
+    
+  }
 }
 
 button.prev {

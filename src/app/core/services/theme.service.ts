@@ -21,7 +21,7 @@ export class ThemeService {
     ['/proyectos/festival-via-crucis', { bg: '#C4CEC7', text: '#2D3234' }],
     ['/proyectos/restaurante-yaki', { bg: '#AD3F9D', text: '#F1F7F8' }],
     ['/proyectos/hotel-alameda', { bg: '#BB5117', text: '#F1F7F8' }],
-    ['/proyectos/weekend-festival', { bg: '#97A5D2', text: '#2D3234' }],
+    ['/proyectos/weekend-festival', { bg: '#18B4B1', text: '#2D3234' }],
     ['/proyectos/revista-yorokobu', { bg: '#88C0B3', text: '#2D3234' }],
     ['/proyectos/el-convento', { bg: '#011D45', text: '#F1F7F8' }],
     ['/proyectos/choose-packaging', { bg: '#D0C9BD', text: '#2D3234' }],
