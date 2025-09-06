@@ -46,4 +46,8 @@
     height: 1px;
     background-color: #114653;
     margin-top: 60px;
+
+    @media (width < 768px) {
+        display: none;
+    }
 }
