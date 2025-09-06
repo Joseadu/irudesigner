@@ -17,7 +17,7 @@ export class ThemeService {
     ['/proyectos/clarity-ai', { bg: '#9DEAD3', text: '#2D3234' }],
     ['/proyectos/barkers-of-kensington', { bg: '#39493A', text: '#F1F7F8' }],
     ['/proyectos/deporte-mujer', { bg: '#262626', text: '#F1F7F8' }],
-    ['/proyectos/stella-bikes', { bg: '#3D4673', text: '#F1F7F8' }],
+    ['/proyectos/stella-bikes', { bg: '#EFB73A', text: '#2D3234' }],
     ['/proyectos/festival-via-crucis', { bg: '#C4CEC7', text: '#2D3234' }],
     ['/proyectos/restaurante-yaki', { bg: '#AD3F9D', text: '#F1F7F8' }],
     ['/proyectos/hotel-alameda', { bg: '#BB5117', text: '#F1F7F8' }],
