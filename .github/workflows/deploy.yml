@@ -24,7 +24,7 @@ jobs:
       - name: Build Angular App
         run: npm run build
 
-      - name: Deploy to Server
+      - name: Deploy to iru.joseadu.com
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.IONOS_HOST  }}
@@ -32,4 +32,14 @@ jobs:
           password: ${{ secrets.IONOS_PASS }}
           source: "dist/irudesigner/browser/"
           target: "/kunden/homepages/25/d4298812114/htdocs/"
+          strip_components: 1
+
+      - name: Deploy to irudesigner.com
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.IRENE_IONOS_HOST  }}
+          username: ${{ secrets.IRENE_IONOS_USER }}
+          password: ${{ secrets.IRENE_IONOS_PASS }}
+          source: "dist/irudesigner/browser/"
+          target: "/kunden/homepages/42/d4299307934/htdocs/"
           strip_components: 1
