@@ -17,9 +17,9 @@
     <div class="tab-content">
       <ng-container [ngSwitch]="selectedTab">
         <div *ngSwitchCase="'sobre-mi'">
-          <div class="section">
+          <div class="section" section-padding-narrow="narrow">
             <div class="info">
-              <div class="col-6">
+              <div class="col-8 col-sm-12">
                 <p class="iru-description text-index-10">
                   ¡Hola! Mi nombre es Irene, soy diseñadora gráfica especializada en branding. El diseño siempre ha
                   formado parte de mi vida: crecer en una imprenta, entre cartas de color, olor a tinta y papeles, no me
@@ -31,15 +31,15 @@
                   volvió mi nueva misión.
                 </p>
               </div>
-              <div class="col-6">
+              <!-- <div class="col-6">
                 <div class="iru-photo">
                   <img src="assets\images\barkers\barkers-500.png" alt="">
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
-          <div class="section">
-            <div class="col-8 mx-auto">
+          <div class="section" section-padding-narrow="narrow">
+            <div class="col-8 col-sm-12 mx-auto">
               <div class="about-section">
                 <span class="date">JULIO 2022-Actualidad (REMOTO)</span>
                 <span class="position">Diseñadora Visual - Clarity AI</span>
@@ -104,8 +104,8 @@
           </div>
         </div>
         <div *ngSwitchCase="'que-hago'" class="que-hago">
-          <section class="section">
-            <div class="col-10">
+          <section class="section" section-padding-narrow="narrow">
+            <div class="col-8 col-sm-12">
               <p class="iru-description">
                 Tras más de cinco años trabajando para diversos sectores, he acompañado desde start-ups e instituciones
                 públicas hasta empresas con proyección internacional. Me aseguro de que los resultados no sean solo
@@ -113,8 +113,8 @@
               </p>
             </div>
           </section>
-          <section class="section">
-            <div class="col-10 ms-auto que-hago-sub">
+          <section class="section" section-padding-narrow="narrow">
+            <div class="col-10 col-sm-12 ms-auto que-hago-sub">
               <div class="que-hago-dropdown" *ngFor="let item of qhItems; let i = index">
                 <div class="qh-item" [class.open]="item.open">
                   <div class="qh-head" (click)="toggle(i)">
@@ -135,14 +135,14 @@
           </section>
         </div>
         <div *ngSwitchCase="'como-lo-hago'" class="como-lo-hago">
-          <section class="section">
-            <div class="col-10">
+          <section class="section" section-padding-narrow="narrow">
+            <div class="col-10 col-sm-12">
               <p class="iru-description">
                 No me conformo con lo evidente; encuentro oportunidades donde otros ven obstáculos. Mi mezcla de intuición, experiencia y visión analítica me permite convertir cualquier idea en una propuesta legítima, haciéndola relevante y efectiva. Las soluciones que ofrezco no solo resuelven problemas, sino que también crean nuevas posibilidades.
               </p>
             </div>
           </section>
-          <section class="section">
+          <section class="section" section-padding-narrow="narrow">
             <div class="how-item">
               <div class="count-container">
                 <div class="count-item">
@@ -150,7 +150,7 @@
                   <span class="count">01</span>
                 </div>
               </div>
-              <div class="col-8 count-description">
+              <div class="col-8 col-sm-12 count-description">
                 <span class="iru-description">
                   Construir soluciones reales
                 </span>
@@ -166,7 +166,7 @@
                   <span class="count">02</span>
                 </div>
               </div>
-              <div class="col-8 count-description">
+              <div class="col-8 col-sm-12 count-description">
                 <span class="iru-description">
                   Construir relaciones duraderas
                 </span>
@@ -182,7 +182,7 @@
                   <span class="count">03</span>
                 </div>
               </div>
-              <div class="col-8 count-description">
+              <div class="col-8 col-sm-12 count-description">
                 <span class="iru-description">
                   Construir para lo que viene 
                 </span>
