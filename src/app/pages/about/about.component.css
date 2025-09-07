@@ -8,13 +8,14 @@
 
   .nav-wrapper {
     position: relative;
-    overflow-x: auto; /* 👈 Scroll horizontal */
-    white-space: nowrap; /* 👈 Evita que salten de línea */
-    scrollbar-width: none; /* 👈 Oculta scroll en Firefox */
-    -ms-overflow-style: none; /* 👈 Oculta scroll en IE/Edge */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 
     &::-webkit-scrollbar {
-      display: none; /* 👈 Oculta scroll en Chrome/Safari */
+      display: none;
     }
 
     .nav {
@@ -24,12 +25,16 @@
       margin: 0;
       list-style: none;
       flex-wrap: nowrap;
+
+      @media (width < 768px) {
+        gap: 20px;
+      }
     }
 
     .underline {
       position: absolute;
       bottom: -2px;
-      height: 3px;
+      height: 4px;
       background-color: #114653;
       transition: all 0.3s ease;
     }
