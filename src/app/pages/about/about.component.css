@@ -8,6 +8,14 @@
 
   .nav-wrapper {
     position: relative;
+    overflow-x: auto; /* 👈 Scroll horizontal */
+    white-space: nowrap; /* 👈 Evita que salten de línea */
+    scrollbar-width: none; /* 👈 Oculta scroll en Firefox */
+    -ms-overflow-style: none; /* 👈 Oculta scroll en IE/Edge */
+
+    &::-webkit-scrollbar {
+      display: none; /* 👈 Oculta scroll en Chrome/Safari */
+    }
 
     .nav {
       display: flex;
@@ -15,6 +23,7 @@
       padding: 0;
       margin: 0;
       list-style: none;
+      flex-wrap: nowrap;
     }
 
     .underline {
