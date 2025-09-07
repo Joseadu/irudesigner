@@ -87,4 +87,8 @@ ul {
 }
 .menu-spacing {
     margin-top: 75px;
+
+    @media (width < 768px) {
+        margin-top: 40px;
+    }
 }
