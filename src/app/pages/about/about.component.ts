@@ -33,7 +33,7 @@ export class AboutComponent implements AfterViewInit, OnInit, OnDestroy {
     { key: 'sobre-mi', label: 'SOBRE MI' },
     { key: 'que-hago', label: 'QUÉ HAGO' },
     { key: 'como-lo-hago', label: 'CÓMO LO HAGO' },
-    { key: 'clientes', label: 'CLIENTES' },
+    // { key: 'clientes', label: 'CLIENTES' },
   ];
 
   open1 = false;
