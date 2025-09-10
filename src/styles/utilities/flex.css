@@ -12,6 +12,11 @@
         flex-direction: column;
     }
 }
+.d-sm-column-reverse {
+    @media (width < 768px) {
+        flex-direction: column-reverse;
+    }
+}
 .align-center {
     align-items: center;
 }
