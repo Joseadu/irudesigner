@@ -9,6 +9,11 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterLink],
   styles: [`
+  :host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
     .main-logo {
       cursor: pointer;
     }

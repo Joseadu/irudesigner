@@ -23,3 +23,15 @@
 .text-index-20 {
   text-indent: 20%;
 }
+
+.a-link {
+  text-decoration: underline;
+  color: #114653;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #0e3740;
+    text-underline-offset: 4px;
+  }
+}
