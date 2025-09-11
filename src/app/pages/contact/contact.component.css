@@ -21,13 +21,14 @@
                 transition: all 0.3s ease;
 
             & img {
-                transform: translateX(10px);
+                transform: translateX(8px);
                 transition: all 0.3s ease;
             }
         }
 
         & > img {
-            margin-top: -6px;
+            width: 21px;
+            margin-top: -8px;
             transition: all 0.3s ease;
         }
 

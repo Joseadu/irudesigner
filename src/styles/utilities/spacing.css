@@ -19,6 +19,9 @@
 .col-3 {
     width: calc(100% * .25);
 }
+.col-2 {
+    width: calc(100% * 0.166666);
+}
 
 .col-md-6 {
     @media (width < 1140px) {

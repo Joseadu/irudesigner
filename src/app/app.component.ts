@@ -5,10 +5,11 @@ import { ThemeService } from './core/services/theme.service';
 import { TransitionService } from './core/services/transition.service';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule, HeaderComponent],
+  imports: [RouterOutlet, CommonModule, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
