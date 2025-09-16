@@ -48,16 +48,16 @@ export class ClarityAIComponent extends DetailComponentBase {
       url: 'dagenham'
     },
     {
+      title: '+DEPORTE +MUJER DIPUTACIÓN DE MÁLAGA',
+      description: 'Identidad Visual, diseño gráfico, video, fotografía e impresión digital',
+      imageUrl: 'assets/images/deporte-mujer/pancarta-grande.png',
+      url: 'deporte-mujer'
+    },
+    {
       title: 'CONCILIO COMMUNICATIONS',
       description: 'Rebranding y Diseño UX/UI',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
-    },
-    {
-      title: 'BARKERS OF KENSINGTON BUILDING',
-      description: 'Identidad Visual',
-      imageUrl: 'assets/images/barkers/barkers-600.jpg',
-      url: 'barkers-of-kensington'
     }
   ];
 }
