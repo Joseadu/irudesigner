@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { CommonModule } from '@angular/common';
 import { SliderSingleComponent } from '../../shared/slider-single/slider-single.component';
+import { RecommendedCardsComponent } from '../../shared/recommended-cards/recommended-cards.component';
 
 @Component({
   selector: 'app-clarity-ai',
-  imports: [CommonModule, SliderSingleComponent],
+  imports: [CommonModule, SliderSingleComponent, RecommendedCardsComponent],
   templateUrl: './clarity-ai.component.html',
   styleUrl: './clarity-ai.component.css'
 })
@@ -37,5 +38,26 @@ export class ClarityAIComponent extends DetailComponentBase {
     'assets/images/clarity-ai/4.jpg',
     'assets/images/clarity-ai/5.jpg',
     'assets/images/clarity-ai/6.png',
+  ];
+  
+  recommendations = [
+    {
+      title: 'DAGENHAM GREEN',
+      description: 'Diseño gráfico y diseño UI/UX',
+      imageUrl: 'assets/images/dagenham/dagenham.jpg',
+      url: 'dagenham'
+    },
+    {
+      title: 'CONCILIO COMMUNICATIONS',
+      description: 'Rebranding y Diseño UX/UI',
+      imageUrl: 'assets/images/concilio/concilio.jpg',
+      url: 'concilio'
+    },
+    {
+      title: 'BARKERS OF KENSINGTON BUILDING',
+      description: 'Identidad Visual',
+      imageUrl: 'assets/images/barkers/barkers-600.jpg',
+      url: 'barkers-of-kensington'
+    }
   ];
 }
