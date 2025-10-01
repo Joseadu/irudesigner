@@ -14,7 +14,7 @@ export class RevistaYorokobuComponent extends DetailComponentBase {
   recommendations = [
     {
       title: 'VIA CRUCIS FESTIVAL',
-      description: 'Identidad Visual y cartelería',
+      description: 'Identidad visual y cartelería',
       imageUrl: 'assets/images/via-crucis/via-crucis-200.jpg',
       url: 'festival-via-crucis'
     },

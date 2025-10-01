@@ -20,13 +20,13 @@ export class ConcilioComponent extends DetailComponentBase implements OnInit {
     },
     {
       title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
     {
       title: 'BARKERS OF KENSINGTON BUILDING',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/barkers/barkers-600.jpg',
       url: 'barkers-of-kensington'
     }

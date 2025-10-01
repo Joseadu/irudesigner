@@ -21,12 +21,12 @@ export class HotelAlamedaComponent extends DetailComponentBase {
     {
       title: 'CLARITY AI',
       description: 'Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics',
-      imageUrl: 'assets/images/clarity-ai/cover.jpg',
+      imageUrl: 'assets/images/clarity-ai/hero images-07.jpg',
       url: 'clarity-ai'
     },
     {
       title: '+DEPORTE +MUJER DIPUTACIÓN DE MÁLAGA',
-      description: 'Identidad Visual, diseño gráfico, video, fotografía e impresión digital',
+      description: 'Identidad visual, diseño gráfico, video, fotografía e impresión digital',
       imageUrl: 'assets/images/deporte-mujer/pancarta-grande.png',
       url: 'deporte-mujer'
     },

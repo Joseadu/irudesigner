@@ -14,7 +14,7 @@ export class StellaBikesComponent extends DetailComponentBase {
   recommendations = [
     {
       title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
@@ -27,7 +27,7 @@ export class StellaBikesComponent extends DetailComponentBase {
     {
       title: 'CLARITY AI',
       description: 'Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics',
-      imageUrl: 'assets/images/clarity-ai/cover.jpg',
+      imageUrl: 'assets/images/clarity-ai/hero images-07.jpg',
       url: 'clarity-ai'
     },
   ];

@@ -21,15 +21,6 @@
   }
 }
 
-.brand-logo {
-  width: 72px;
-  cursor: pointer;
-
-  @media (width < 768px) {
-    width: 60px;
-  }
-}
-
 .nav {
   display: flex;
   flex-direction: row;

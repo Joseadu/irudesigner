@@ -49,13 +49,13 @@ export class ClarityAIComponent extends DetailComponentBase {
     },
     {
       title: '+DEPORTE +MUJER DIPUTACIÓN DE MÁLAGA',
-      description: 'Identidad Visual, diseño gráfico, video, fotografía e impresión digital',
+      description: 'Identidad visual, diseño gráfico, video, fotografía e impresión digital',
       imageUrl: 'assets/images/deporte-mujer/pancarta-grande.png',
       url: 'deporte-mujer'
     },
     {
       title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y Diseño UX/UI',
+      description: 'Rebranding y diseño UX/UI',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }

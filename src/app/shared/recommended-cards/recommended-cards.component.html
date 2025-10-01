@@ -1,14 +1,18 @@
-<div class="grid-container">
-    @for (item of recommendations; track $index) {
-    <div class="grid-item">
-        <a [routerLink]="['/proyectos', item.url]"><img [src]="item.imageUrl" alt="{{ item.title }}"></a>
+<div class="recommended-cards">
+    <span class="grid-title">Proyectos recomendados</span>
 
-        <div class="grid-info">
-            <h5>
-                <a [routerLink]="['/proyectos', item.url]">{{ item.title }}</a>
-            </h5>
-            <p>{{ item.description }}</p>
+    <div class="grid-container">
+        @for (item of recommendations; track $index) {
+        <div class="grid-item">
+            <a [routerLink]="['/proyectos', item.url]"><img [src]="item.imageUrl" alt="{{ item.title }}"></a>
+
+            <div class="grid-info">
+                <h5>
+                    <a [routerLink]="['/proyectos', item.url]">{{ item.title }}</a>
+                </h5>
+                <p>{{ item.description }}</p>
+            </div>
         </div>
+        }
     </div>
-    }
 </div>

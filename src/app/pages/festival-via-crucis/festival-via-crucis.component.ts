@@ -27,7 +27,7 @@ export class FestivalViaCrucisComponent extends DetailComponentBase implements O
     {
       title: 'CLARITY AI',
       description: 'Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics',
-      imageUrl: 'assets/images/clarity-ai/cover.jpg',
+      imageUrl: 'assets/images/clarity-ai/hero images-07.jpg',
       url: 'clarity-ai'
     },
   ];

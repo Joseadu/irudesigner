@@ -19,19 +19,19 @@ export class DeporteMujerComponent extends DetailComponentBase implements OnInit
   recommendations = [
     {
       title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
     {
       title: 'CLARITY AI',
       description: 'Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics',
-      imageUrl: 'assets/images/clarity-ai/cover.jpg',
+      imageUrl: 'assets/images/clarity-ai/hero images-07.jpg',
       url: 'clarity-ai'
     },
     {
       title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y Diseño UX/UI',
+      description: 'Rebranding y diseño UX/UI',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }

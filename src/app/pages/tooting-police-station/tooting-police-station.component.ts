@@ -30,13 +30,13 @@ export class TootingPoliceStationComponent extends DetailComponentBase implement
     },
     {
       title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y Diseño UX/UI',
+      description: 'Rebranding y diseño UX/UI',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     },
     {
       title: 'BARKERS OF KENSINGTON BUILDING',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/barkers/barkers-600.jpg',
       url: 'barkers-of-kensington'
     }

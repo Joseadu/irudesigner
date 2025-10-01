@@ -303,7 +303,7 @@
 .how-item {
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  gap: 32px;
   padding: 12px 0;
   padding-bottom: 80px;
 

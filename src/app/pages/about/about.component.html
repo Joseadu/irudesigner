@@ -103,7 +103,7 @@
         <div *ngSwitchCase="'que-hago'" class="que-hago">
           <section class="section" section-padding-narrow="narrow">
             <div class="col-8 col-sm-12">
-              <p class="iru-description">
+              <p class="iru-description text-index-10">
                 Tras más de cinco años trabajando para diversos sectores, he acompañado desde start-ups e instituciones
                 públicas hasta empresas con proyección internacional. Me aseguro de que los resultados no sean solo
                 estéticos, sino que identifiquen oportunidades y desarrollen soluciones con impacto real.
@@ -111,7 +111,7 @@
             </div>
           </section>
           <section class="section" section-padding-narrow="narrow">
-            <div class="col-10 col-sm-12 ms-auto que-hago-sub">
+            <div class="col-8 mx-auto col-sm-12 que-hago-sub">
               <div class="que-hago-dropdown" *ngFor="let item of qhItems; let i = index">
                 <div class="qh-item" [class.open]="item.open">
                   <div class="qh-head" (click)="toggle(i)">
@@ -134,20 +134,21 @@
         <div *ngSwitchCase="'como-lo-hago'" class="como-lo-hago">
           <section class="section" section-padding-narrow="narrow">
             <div class="col-10 col-sm-12">
-              <p class="iru-description">
+              <p class="iru-description text-index-10">
                 No me conformo con lo evidente; encuentro oportunidades donde otros ven obstáculos. Mi mezcla de intuición, experiencia y visión analítica me permite convertir cualquier idea en una propuesta legítima, haciéndola relevante y efectiva. Las soluciones que ofrezco no solo resuelven problemas, sino que también crean nuevas posibilidades.
               </p>
             </div>
           </section>
           <section class="section" section-padding-narrow="narrow">
-            <div class="how-item">
+            <div class="col-8 col-sm-12 mx-auto">
+              <div class="how-item">
               <div class="count-container">
                 <div class="count-item">
                   <img src="assets/icons/Grupo 365.svg" alt="Cómo lo hago 1">
                   <span class="count">01</span>
                 </div>
               </div>
-              <div class="col-8 col-sm-12 count-description">
+              <div class="count-description">
                 <span class="iru-description">
                   Construir soluciones reales
                 </span>
@@ -163,7 +164,7 @@
                   <span class="count">02</span>
                 </div>
               </div>
-              <div class="col-8 col-sm-12 count-description">
+              <div class="count-description">
                 <span class="iru-description">
                   Construir relaciones duraderas
                 </span>
@@ -179,7 +180,7 @@
                   <span class="count">03</span>
                 </div>
               </div>
-              <div class="col-8 col-sm-12 count-description">
+              <div class="count-description">
                 <span class="iru-description">
                   Construir para lo que viene 
                 </span>
@@ -188,6 +189,8 @@
                 </p>
               </div>
             </div>
+            </div>
+            
           </section>
         </div>
         <!-- <div *ngSwitchCase="'clientes'">

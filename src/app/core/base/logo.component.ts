@@ -15,6 +15,7 @@ import { RouterLink } from '@angular/router';
     justify-content: center;
   }
     .main-logo {
+      height: 48px;
       cursor: pointer;
     }
     .main-logo:focus {

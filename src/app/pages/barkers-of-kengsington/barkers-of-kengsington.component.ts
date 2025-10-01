@@ -21,13 +21,13 @@ export class BarkersOfKengsingtonComponent extends DetailComponentBase implement
     },
     {
       title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad Visual',
+      description: 'Identidad visual',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
     {
       title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y Diseño UX/UI',
+      description: 'Rebranding y diseño UX/UI',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }
