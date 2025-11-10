@@ -1,10 +1,12 @@
 import { Component, Input } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-badge',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './badge.component.html',
-  styleUrl: './badge.component.css'
+  styleUrl: './badge.component.css',
+  standalone: true
 })
 export class BadgeComponent {
   @Input() text = '';

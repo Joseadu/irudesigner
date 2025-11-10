@@ -3,10 +3,11 @@ import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { CommonModule } from '@angular/common';
 import { SliderSingleComponent } from '../../shared/slider-single/slider-single.component';
 import { RecommendedCardsComponent } from '../../shared/recommended-cards/recommended-cards.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-clarity-ai',
-  imports: [CommonModule, SliderSingleComponent, RecommendedCardsComponent],
+  imports: [CommonModule, SliderSingleComponent, RecommendedCardsComponent, TranslateModule],
   templateUrl: './clarity-ai.component.html',
   styleUrl: './clarity-ai.component.css'
 })

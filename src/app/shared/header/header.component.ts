@@ -4,10 +4,11 @@ import { ThemeService } from '../../core/services/theme.service';
 import { filter, Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { NavigationEnd, Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, LogoComponent, RouterLink, RouterLinkActive],
+  imports: [CommonModule, LogoComponent, RouterLink, RouterLinkActive, TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -21,7 +22,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   bgColor = '#D7ECED';
 
   constructor (
-    private router: Router 
+    private router: Router, private translate: TranslateService
   ) {}
 
   ngOnInit() {
@@ -55,6 +56,11 @@ export class HeaderComponent implements OnInit, OnDestroy {
         })
     );
   }
+
+  changeLang(lang: string) {
+  this.translate.use(lang);
+  localStorage.setItem('lang', lang);
+}
 
   ngOnDestroy() {
     this.sub.unsubscribe();

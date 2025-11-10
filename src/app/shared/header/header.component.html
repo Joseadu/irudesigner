@@ -1,5 +1,10 @@
 <header class="header" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
   <app-logo></app-logo>
+  <select #langSel (change)="changeLang(langSel.value)">
+  <option value="es">ESP</option>
+  <option value="en">ENG</option>
+</select>
+<p>{{ 'TEXT.DESCRIPTION' | translate }}</p>
   <button class="menu-toggle" (click)="toggleMenu()" [class.open]="isMenuOpen" aria-label="Toggle menu">
     <span [ngStyle]="{'background-color': textColor }"></span>
     <span [ngStyle]="{'background-color': textColor }"></span>

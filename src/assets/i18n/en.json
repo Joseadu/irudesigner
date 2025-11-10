@@ -1,0 +1,22 @@
+{
+  "ABOUT": {
+
+},
+  "BADGE": {
+    "RECENT_PROJECT": "Latest project"
+  },
+  "HEADER": {
+    "ABOUT": "ABOUT ME",
+    "CONTACT": "CONTACT",
+    "PROJECTS": "PROJECTS"
+  },
+  "PROJECTS": {
+    "CLARITY_AI": {
+        "DESCRIPTION": "Clarity AI is a leading sustainability technology platform that uses artificial intelligence to assess, analyse and report sustainability-related data. Its core mission is to enable investors, businesses and consumers to make informed decisions that contribute to a more sustainable future.The platform covers more than 70,000 companies, 430,000 funds and 400 national and sub-national governments, offering reliable data and methodologies grounded in scientific evidence."
+    }
+  },
+  "TEXT": {
+    "TITLE": "Hello world",
+    "DESCRIPTION": "This is a text in English"
+  }
+}
