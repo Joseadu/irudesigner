@@ -84,9 +84,7 @@
           <section class="section" section-padding-narrow="narrow">
             <div class="col-8 col-sm-12">
               <p class="iru-description text-index-10">
-                Tras más de cinco años trabajando para diversos sectores, he acompañado desde start-ups e instituciones
-                públicas hasta empresas con proyección internacional. Me aseguro de que los resultados no sean solo
-                estéticos, sino que identifiquen oportunidades y desarrollen soluciones con impacto real.
+                {{ 'ABOUT.WHAT_I_DO.DESCRIPTION' | translate }}
               </p>
             </div>
           </section>
@@ -95,16 +93,16 @@
               <div class="que-hago-dropdown" *ngFor="let item of qhItems; let i = index">
                 <div class="qh-item" [class.open]="item.open">
                   <div class="qh-head" (click)="toggle(i)">
-                    <span class="iru-description">{{ item.titulo }}</span>
+                    <span class="iru-description">{{ item.titulo | translate }}</span>
                     <button class="qh-toggle" type="button" [attr.aria-expanded]="item.open"
                       [attr.aria-controls]="'qh-panel-' + i" (click)="$event.stopPropagation(); toggle(i)">
                     </button>
                   </div>
 
-                  <p class="job-description">{{ item.descripcion }}</p>
+                  <p class="job-description">{{ item.descripcion | translate }}</p>
 
                   <ul class="qh-panel" [id]="'qh-panel-' + i">
-                    <li *ngFor="let li of item.lista">{{ li }}</li>
+                    <li *ngFor="let li of item.lista">{{ li | translate }}</li>
                   </ul>
                 </div>
               </div>

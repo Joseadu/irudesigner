@@ -40,6 +40,57 @@
       "DATE": "AUGUST 2020 - DECEMBER 2020 (LONDON)",
       "POSITION": "Graphic Designer - Wrangle",
       "DESCRIPTION": "As a freelance designer, I developed the visual identity of this start-up from the ground up, creating graphic materials for social media, editorial design, illustration, and print advertising."
+    },
+    "WHAT_I_DO": {
+      "DESCRIPTION": "Over the past five years, I have partnered with a wide range of organisations, from early-stage startups and public institutions to internationally focused companies. My work goes beyond making something look attractive. Design becomes a strategic tool that uncovers opportunities and delivers measurable impact.",
+      "BRAND_STRATEGY": {
+        "TITLE": "Brand Strategy",
+        "DESCRIPTION": "I help brands understand where they stand, how they are perceived and where they can grow. By analysing market context and customer behaviour, I define strategies that strengthen competitive advantage and build long-term relevance. My role is to bring clarity and coherence to what a brand thinks, says and shows.",
+        "1": "Brand audits",
+        "2": "Customer behaviour insights",
+        "3": "Market and trend analysis",
+        "4": "Tone of voice and brand personality",
+        "5": "Values",
+        "6": "Brand positioning",
+        "7": "Key messaging",
+        "8": "Content strategy"
+      },
+      "BRANDING": {
+        "TITLE": "Branding",
+        "DESCRIPTION": "I collaborate closely with each client to translate their personality into visual identities that feel clear, memorable and practical to use. Through thoughtful art direction and flexible design systems, ideas evolve into brands with real presence in the market. ",
+        "1": "Logo design",
+        "2": "Visual identity systems",
+        "3": "Naming and tagline development",
+        "4": "Art direction",
+        "5": "Typography",
+        "6": "Colour palette",
+        "7": "Brand guidelines",
+        "8": "Creative concept development"
+      },
+      "GRAPHIC_DESIGN": {
+        "TITLE": "Graphic Design",
+        "DESCRIPTION": "Versatility has always been at the core of my work. I design across multiple disciplines so that brands can maintain consistency wherever they appear. The goal is simple: visuals that not only look good on their own, but operate as part of a coherent system.",
+        "1": "Print and advertising",
+        "2": "Editorial design",
+        "3": "Packaging",
+        "4": "Data Design",
+        "5": "Social media and digital assets",
+        "6": "Newsletters",
+        "7": "Motion graphics",
+        "8": "Vectorial illustration"
+      },
+      "UI/UX_DESIGN": {
+        "TITLE": "UI/UX Design",
+        "DESCRIPTION": "I create digital experiences that balance brand expression, business goals and genuine user needs. My approach is grounded in research, data and usability, ensuring that every interaction feels intuitive and consistent. ",
+        "1": "Design Systems",
+        "2": "Information architecture",
+        "3": "Wireframes and prototypes",
+        "4": "UI design",
+        "5": "UX design",
+        "6": "Accessibility standards WCAG",
+        "7": "Responsive layouts",
+        "8": "Usability testing"
+      }
     }
   },
   "BADGE": {

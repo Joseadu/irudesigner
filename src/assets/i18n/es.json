@@ -40,6 +40,57 @@
       "DATE": "AGOSTO 2020 - DICIEMBRE 2020 (LONDRES)",
       "POSITION": "Diseñadora Gráfica - Wrangle",
       "DESCRIPTION": "Desarrollé como freelance la Identidad Visual de esta start-up desde el inicio, realizando trabajos de diseño gráfico para redes sociales, diseño editorial, ilustración y publicidad impresa."
+    },
+    "WHAT_I_DO": {
+      "DESCRIPTION": "Tras más de cinco años trabajando para diversos sectores, he acompañado desde startups e instituciones públicas hasta empresas con proyección internacional. Me aseguro de que mis diseños no sean únicamente visualemente estéticos, sino una herramienta estratégica que detecte oportunidades y genere soluciones con impacto real.",
+      "BRAND_STRATEGY": {
+        "TITLE": "Estrategia de Marca",
+        "DESCRIPTION": "Analizo la posición actual de la marca en su contexto y el comportamiento de los consumidores para definir una estrategia que con anticipación y creatividad, aproveche al máximo su ventaja competitiva. Mi enfoque se centra en alinear lo que la marca quiere, dice, hace y muestra para construir una identidad coherente, sólida y reconocible.",
+        "1": "Auditoría de marca",
+        "2": "Análisis del comportamiento del usuario",
+        "3": "Análisis del mercado y tendencias",
+        "4": "Tono de voz y personalidad de marca",
+        "5": "Valores, misión y promesa de marca",
+        "6": "Posicionamiento",
+        "7": "Mensajes clave",
+        "8": "Estrategia de contenido"
+      },
+      "BRANDING": {
+        "TITLE": "Branding",
+        "DESCRIPTION": "Trabajo mano a mano con cada cliente para reflejar su esencia en identidades claras, funcionales y, por supuesto, bellas. Mediante procesos colaborativos y soluciones visuales flexibles y escalables, transformo ideas abstractas en sistemas de marca preparados para crecer con el tiempo.",
+        "1": "Diseño de logo",
+        "2": "Desarrollo del sistema visual",
+        "3": "Naming y creación de taglines",
+        "4": "Dirección de arte",
+        "5": "Tipografías",
+        "6": "Paleta de colores",
+        "7": "Manual de identidad de marca",
+        "8": "Conceptualización creativa"
+      },
+      "GRAPHIC_DESIGN": {
+        "TITLE": "Diseño Gráfico",
+        "DESCRIPTION": "Como diseñadora gráfica versátil me he especializado en varias áreas del diseño para dar solución a todas las necesidades de diseño que cualquier empresa sin importar su tamaño o alcance, pueda necesitar. Para ello es esencial tener una perspectiva global y asegurarme de que los diseños funcionen perfectamente en conjunto.",
+        "1": "Impresión y publicidad",
+        "2": "Editorial",
+        "3": "Packaging",
+        "4": "Diseño de datos",
+        "5": "Redes sociales y digital",
+        "6": "Newsletters",
+        "7": "Motion graphics",
+        "8": "Ilustración vectorial"
+      },
+      "UI/UX_DESIGN": {
+        "TITLE": "Diseño UI/UX",
+        "DESCRIPTION": "Diseño experiencias digitales funcionales y atractivas alineadas con la identidad de marca, que equilibran necesidades de negocio con expectativas reales de los usuarios. Mi enfoque combina análisis de datos, investigación de comportamiento y diseño centrado en el usuario para optimizar cada paso del recorrido digital.",
+        "1": "Design Systems",
+        "2": "Arquitectura de la información",
+        "3": "Wireframes y prototipos",
+        "4": "Diseño de Interfaces (UI)",
+        "5": "Diseño de experiencias de usuario (UX)",
+        "6": "Estándares de accesibilidad WCAG",
+        "7": "Diseño responsive",
+        "8": "Tests de usabilidad con usuarios"
+      }
     }
   },
   "BADGE": {
