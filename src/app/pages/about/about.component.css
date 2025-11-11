@@ -190,6 +190,7 @@
 
 .iru-description {
     font-size: 26px;
+    white-space: pre-line;
 
     @media (width < 768px) {
         font-size: 22px;
@@ -199,6 +200,7 @@
 .job-description {
     font-size: 18px;
     line-height: 31px;
+    white-space: pre-line;
 
     @media (width < 768px) {
         font-size: 16px;

@@ -1,9 +1,52 @@
 {
-"ABOUT": {
-
-},
+  "ABOUT": {
+    "ABOUT_ME": "¡Hola! Mi nombre es Irene, soy diseñadora gráfica especializada en branding. El diseño siempre ha formado parte de mi vida: crecer en una imprenta, entre cartas de color, olor a tinta y papeles, no me dejó muchas más opciones. En mi camino de desentrañar el secreto de comunicar con imágenes, empecé a estudiar audiovisuales y me topé con el diseño gráfico. \n\n«El diseño está en todas partes», me decían, y descubrir qué hace que unos funcione y otros no se volvió mi nueva misión.",
+    "CLARITY_AI": {
+      "DATE": "JULIO 2022-Actualidad (REMOTO)",
+      "POSITION": "Diseñadora Visual - Clarity AI",
+      "DESCRIPTION": "Colaboré en el equipo de Marketing y de Diseño de Producto para esta empresa tecnológica (B2B SaaS), con principales aportaciones en:\n\n- Apliqué mediciones UX que mejoraron la navegación y aumentaron leads y peticiones de demo en la web app.\n - Creé una guía de estilo que impulsó la cultura de diseño, redujo tiempos de producción y aseguró consistencia visual en todos los materiales.\n - Transformé datos técnicos complejos en gráficos visualmente atractivos para memorias corporativas y reportes sobre sostenibilidad y ESG"
+    },
+    "CONCILIO_COMMS": {
+      "DATE": "MARZO 2021 - MARZO 2022 (LONDRES)",
+      "POSITION": "Jefa de Diseño - Concilio Communications",
+      "DESCRIPTION": "Para esta Agencia de Comunicación de Londres especializada en el sector urbanístico y la consultas públicas, y mis responsabilidades fueron:\n\n - Lideré el equipo de diseño, aportando experiencia en reuniones con clientes, mejorando la percepción profesional de la agencia y acelerando la entrega de diseños, lo que incrementó el volumen de solicitudes.\n - Diseñé identidades visuales que unificaron las comunicaciones, aumentando profesionalidad, reconocimiento y participación ciudadana"
+    },
+    "DIPUTACION_MALAGA": {
+      "DATE": "MARZO 2017 - MARZO 2019 (MÁLAGA)",
+      "POSITION": "Jefa de Comunicación Audiovisual - Área de Deportes, Diputación de Málaga",
+      "DESCRIPTION": "Creamos el Gabinete de Comunicación del Servicio de Deportes, liderando la parte audiovisual realicé tareas de producción de fotografía y video deportivo y de eventos, diseño gráfico, maquetación, identidad corporativa, diseño colateral para marketing y redes sociales"
+    },
+    "FREELANCE": {
+      "DATE": "MARZO 2014- DICIEMBRE 2019 (FUENGIROLA)",
+      "POSITION": "Diseñadora gráfica y fotógrafa",
+      "DESCRIPTION": "Colaboraciones como freelance en la empresa familiar realizando fotografía de producto para campañas publicitarias, diseño gráfico orientado a la impresión digital de gran formato, diseño editorial, merchandising y cartelería."
+    },
+    "HANSUKE_CONSULTING": {
+      "DATE": "SEPTIEMBRE 2020 - NOVIEMBRE 2020 (LONDRES)",
+      "POSITION": "Diseñadora Gráfica Asociada - Hansuke Consulting",
+      "DESCRIPTION": "Lideré la creación de la identidad visual y elementos de marketing para su conferencia anual, así como otros trabajos de diseño colaterales para marketing online como freelance."
+    },
+    "UPL_VISION": {
+      "DATE": "AGOSTO 2020 - DICIEMBRE 2020 (LONDRES)",
+      "POSITION": "Diseñadora Gráfica Marketing - UPL Vision",
+      "DESCRIPTION": "Realicé trabajos como freelance de diseño gráfico orientado al marketing digital y redes sociales, así como motion graphics y animaciones, email marketing para la Agencia de Diseño UPL que trabaja principalmente con marcas relacionadas con el mercado del cuidado personal."
+    },
+    "TABS": {
+      "ABOUT_ME": "Sobre mí",
+      "WHAT_I_DO": "Qué hago",
+      "HOW_I_WORK": "Cómo lo hago"
+    },
+    "WRANGLE": {
+      "DATE": "AGOSTO 2020 - DICIEMBRE 2020 (LONDRES)",
+      "POSITION": "Diseñadora Gráfica - Wrangle",
+      "DESCRIPTION": "Desarrollé como freelance la Identidad Visual de esta start-up desde el inicio, realizando trabajos de diseño gráfico para redes sociales, diseño editorial, ilustración y publicidad impresa."
+    }
+  },
   "BADGE": {
     "RECENT_PROJECT": "Proyecto más reciente"
+  },
+  "COMMON": {
+    "SEE_PROJECT": "ver proyecto"
   },
   "HEADER": {
     "ABOUT": "SOBRE MI",
@@ -12,7 +55,7 @@
   },
   "PROJECTS": {
     "CLARITY_AI": {
-        "DESCRIPTION": "Clarity AI es una plataforma líder en tecnología de sostenibilidad que ofrece soluciones impulsadas por inteligencia artificial para evaluar, analizar y reportar datos relacionados con la sostenibilidad. Su objetivo es permitir a inversores, empresas y consumidores tomar decisiones informadas que contribuyan a un futuro más sostenible. La plataforma abarca más de 70,000 empresas, 430,000 fondos y 400 gobiernos nacionales y subnacionales, proporcionando datos fiables y metodologías basadas en evidencia científica."
+      "DESCRIPTION": "Clarity AI es una plataforma líder en tecnología de sostenibilidad que ofrece soluciones impulsadas por inteligencia artificial para evaluar, analizar y reportar datos relacionados con la sostenibilidad. Su objetivo es permitir a inversores, empresas y consumidores tomar decisiones informadas que contribuyan a un futuro más sostenible. La plataforma abarca más de 70,000 empresas, 430,000 fondos y 400 gobiernos nacionales y subnacionales, proporcionando datos fiables y metodologías basadas en evidencia científica."
     }
   },
   "TEXT": {

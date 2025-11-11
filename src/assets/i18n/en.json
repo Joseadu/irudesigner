@@ -1,7 +1,47 @@
 {
   "ABOUT": {
-
-},
+    "ABOUT_ME": "Hi! My name is Irene, and I’m a senior graphic designer specialized in branding. Design has always been part of my life: growing up in a print shop surrounded by color swatches, the smell of ink, and stacks of paper… I had no other option. While trying to decode the secrets behind communication effectively through images, I decided to study audiovisuals and photography, and in this path I discovered that graphic design is my passion.\n\nEveryone said “Everything is design”. Discovering the reasons behind an effective and visual interesting design, became my new mission/obsession.",
+    "CLARITY_AI": {
+      "DATE": "JULY 2022-Currently (REMOTE)",
+      "POSITION": "Visual designer - Clarity AI",
+      "DESCRIPTION": "Collaborated with both the Marketing and Product Design teams in this B2B SaaS company, with key contributions including:\n\n - Applied UX measurements that improved navigation and increased leads and demo requests on the web app.\n - Created a style guide that fostered a design culture, reduced production times, and ensured visual consistency across all materials.\n - Enhanced data visualization for marketing and the web app by unifying their Design System, accelerating production and design workflows"
+    },
+    "CONCILIO_COMMS": {
+      "DATE": "MARCH 2021 - MARCH 2022 (LONDON)",
+      "POSITION": "Head of Design - Concilio Communications",
+      "DESCRIPTION": "Worked at this London-based Agency specialized in urban development and public consultations, with main responsibilities including:\n\n - Led the design team, providing expertise in client meetings, strengthening the agency’s professional perception, and accelerating design delivery, which increased project requests.\n - Designed powerful visual identities that unified communications, enhancing professionalism, recognition, and citizen engagement."
+    },
+    "DIPUTACION_MALAGA": {
+      "DATE": "MARCH 2017 - MARCH 2019 (MÁLAGA)",
+      "POSITION": "Jefa de Comunicación Audiovisual - Área de Deportes, Diputación de Málaga",
+      "DESCRIPTION": "Part of the Sports Department’s communications office after an extracurricular internship, with main achievements including:\n\n - Professionalized the production of photography, video, and graphic design for sports events, improving public recognition.\n - Secured the success of the +deporte +mujer campaign by creating a visual identity that strengthened the relationship between the public institution and citizens"
+    },
+    "FREELANCE": {
+      "DATE": "MARCH 2014- DECEMBER 2019 (FUENGIROLA)",
+      "POSITION": "Graphic Designer and Photographer",
+      "DESCRIPTION": "Freelance collaborations within the family business, producing product photography for advertising campaigns, large-format print design, editorial design, merchandising and signage."
+    },
+    "HANSUKE_CONSULTING": {
+      "DATE": "SEPTEMBER 2020 - NOVEMBER 2020 (LONDON)",
+      "POSITION": "Associated Graphic Designer - Hansuke Consulting",
+      "DESCRIPTION": "During COVID-19 I lLed the creation of the visual identity and marketing materials for their online annual conference, along with additional marketing collateral design for digital marketing campaigns as a freelancer."
+    },
+    "UPL_VISION": {
+      "DATE": "AUGUST 2020 - DECEMBER 2020 (LONDON)",
+      "POSITION": "Marketing Graphic Designer - UPL Vision",
+      "DESCRIPTION": "Worked freelance on graphic design for digital marketing and social media, as well as motion graphics, animation, and email marketing for UPL Design Agency, which mainly collaborates with brands in the personal care market."
+    },
+    "TABS": {
+      "ABOUT_ME": "About me",
+      "WHAT_I_DO": "What I do",
+      "HOW_I_WORK": "How I work"
+    },
+    "WRANGLE": {
+      "DATE": "AUGUST 2020 - DECEMBER 2020 (LONDON)",
+      "POSITION": "Graphic Designer - Wrangle",
+      "DESCRIPTION": "As a freelance designer, I developed the visual identity of this start-up from the ground up, creating graphic materials for social media, editorial design, illustration, and print advertising."
+    }
+  },
   "BADGE": {
     "RECENT_PROJECT": "Latest project"
   },
@@ -12,11 +52,14 @@
   },
   "PROJECTS": {
     "CLARITY_AI": {
-        "DESCRIPTION": "Clarity AI is a leading sustainability technology platform that uses artificial intelligence to assess, analyse and report sustainability-related data. Its core mission is to enable investors, businesses and consumers to make informed decisions that contribute to a more sustainable future.The platform covers more than 70,000 companies, 430,000 funds and 400 national and sub-national governments, offering reliable data and methodologies grounded in scientific evidence."
+      "DESCRIPTION": "Clarity AI is a leading sustainability technology platform that uses artificial intelligence to assess, analyse and report sustainability-related data. Its core mission is to enable investors, businesses and consumers to make informed decisions that contribute to a more sustainable future.The platform covers more than 70,000 companies, 430,000 funds and 400 national and sub-national governments, offering reliable data and methodologies grounded in scientific evidence."
     }
   },
   "TEXT": {
     "TITLE": "Hello world",
     "DESCRIPTION": "This is a text in English"
+  },
+  "COMMON": {
+    "SEE_PROJECT": "see project"
   }
 }

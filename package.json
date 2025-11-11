@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "i18n:sync": "node src/app/core/scripts/i18n-sync.mjs"
   },
   "private": true,
   "dependencies": {

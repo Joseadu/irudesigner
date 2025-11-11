@@ -4,10 +4,11 @@ import { trigger, transition, style, animate } from '@angular/animations';
 import { ThemeService } from '../../core/services/theme.service';
 import { RouterLink } from '@angular/router';
 import { ServicesItemsService } from './services/services-items.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, TranslateModule],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css',
   animations: [
@@ -30,9 +31,9 @@ import { ServicesItemsService } from './services/services-items.service';
 })
 export class AboutComponent implements AfterViewInit, OnInit, OnDestroy {
   tabs = [
-    { key: 'sobre-mi', label: 'SOBRE MI' },
-    { key: 'que-hago', label: 'QUÉ HAGO' },
-    { key: 'como-lo-hago', label: 'CÓMO LO HAGO' },
+    { key: 'sobre-mi', label: 'ABOUT.TABS.ABOUT_ME' },
+    { key: 'que-hago', label: 'ABOUT.TABS.WHAT_I_DO' },
+    { key: 'como-lo-hago', label: 'ABOUT.TABS.HOW_I_WORK' },
     // { key: 'clientes', label: 'CLIENTES' },
   ];
 
