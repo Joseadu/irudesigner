@@ -41,6 +41,21 @@
       "POSITION": "Diseñadora Gráfica - Wrangle",
       "DESCRIPTION": "Desarrollé como freelance la Identidad Visual de esta start-up desde el inicio, realizando trabajos de diseño gráfico para redes sociales, diseño editorial, ilustración y publicidad impresa."
     },
+    "HOW_I_WORK": {
+      "TITLE": "No me conformo con lo evidente; encuentro oportunidades donde otros ven obstáculos. Mi mezcla de intuición, experiencia y visión analítica me permite convertir cualquier idea en una propuesta legítima, haciéndola relevante y efectiva. Las soluciones que ofrezco no solo resuelven problemas, sino que también crean nuevas posibilidades.",
+      "1": {
+        "TITLE": "Construir soluciones aplicables",
+        "DESCRIPTION": "Mi experiencia con clientes de diferentes sectores y tamaños me ha enseñado que, más allá de lo que funciona en teoría, el éxito real radica en adaptar cada solución al contexto, recursos y ritmo de trabajo de cada proyecto. Mi mayor ambición en cada proyecto es sentir que el cliente va a poder usar mis soluciones gráficas cómodamente en su día a día priorizando sus necesidades reales."
+      },
+      "2": {
+        "TITLE": "Construir relaciones duraderas",
+        "DESCRIPTION": "Soy una persona trabajando con personas, por lo que mi enfoque se basa en una comunicación clara y constante, con puntos de contacto regulares que evitan sorpresas de última hora. Esta conexión cercana con cada cliente, que al final del día es el que va a tener que usar su marca, no solo es esencial para construir soluciones auténticas y funcionales, sino que también fortalece relaciones duraderas basadas en la confianza y el compromiso mutuo."
+      },
+      "3": {
+        "TITLE": "Construir para lo que viene",
+        "DESCRIPTION": "La creatividad es un músculo que hay que ejercitar constantemente para generar conceptos originales e innovadores. Consciente de ello y de manera natural, estoy constantemente investigando nuevas tendencias, metodologías y tecnologías emergentes. No se trata solo de usar nuevas herramientas, sino de entender cómo estas novedades pueden enriquecer cada proyecto y hacerlo más vivo, auténtico y conectado con el presente. Así, mi trabajo no solo responde al ahora, sino que también se anticipa a lo que viene."
+      }
+    },
     "WHAT_I_DO": {
       "DESCRIPTION": "Tras más de cinco años trabajando para diversos sectores, he acompañado desde startups e instituciones públicas hasta empresas con proyección internacional. Me aseguro de que mis diseños no sean únicamente visualemente estéticos, sino una herramienta estratégica que detecte oportunidades y genere soluciones con impacto real.",
       "BRAND_STRATEGY": {

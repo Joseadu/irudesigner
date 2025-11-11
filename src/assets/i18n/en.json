@@ -41,6 +41,21 @@
       "POSITION": "Graphic Designer - Wrangle",
       "DESCRIPTION": "As a freelance designer, I developed the visual identity of this start-up from the ground up, creating graphic materials for social media, editorial design, illustration, and print advertising."
     },
+    "HOW_I_WORK": {
+      "TITLE": "I am not interested in delivering something purely beautiful. I look for hidden opportunities, challenge assumptions and ensure every design has a purpose. The outcome is a solution that solves real problems while opening the door to new possibilities.",
+      "1": {
+        "TITLE": "Graphic solutions for the real life",
+        "DESCRIPTION": "Working with brands of different sizes has taught me that a solution only succeeds when it fits the client’s reality, their timing, resources and capabilities. My priority is to create design systems that clients can confidently use on their own, every day."
+      },
+      "2": {
+        "TITLE": "Collaboration built on trust",
+        "DESCRIPTION": "Good design relies on communication. I keep the process transparent, structured and free of last-minute surprises. This collaborative approach leads to results that feel genuinely aligned with the client and is often the reason relationships last well beyond the first project."
+      },
+      "3": {
+        "TITLE": "Always building for what comes next",
+        "DESCRIPTION": "Creativity requires constant curiosity, it´s a muscle that you should exercise in order to generate innovative and original concepts. I stay informed about new visual languages, tools and design trends, not as a checklist, but to understand how they can elevate a brand. The aim is to create work that feels current today while remaining relevant tomorrow."
+      }
+    },
     "WHAT_I_DO": {
       "DESCRIPTION": "Over the past five years, I have partnered with a wide range of organisations, from early-stage startups and public institutions to internationally focused companies. My work goes beyond making something look attractive. Design becomes a strategic tool that uncovers opportunities and delivers measurable impact.",
       "BRAND_STRATEGY": {
