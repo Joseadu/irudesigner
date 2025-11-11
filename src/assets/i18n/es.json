@@ -109,7 +109,8 @@
     }
   },
   "BADGE": {
-    "RECENT_PROJECT": "Proyecto más reciente"
+    "RECENT_PROJECT": "Proyecto más reciente",
+    "COMMING_SOON": "Próximamente"
   },
   "COMMON": {
     "SEE_PROJECT": "ver proyecto"
