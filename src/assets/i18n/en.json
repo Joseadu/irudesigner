@@ -112,9 +112,9 @@
     "RECENT_PROJECT": "Latest project"
   },
   "HEADER": {
-    "ABOUT": "ABOUT ME",
-    "CONTACT": "CONTACT",
-    "PROJECTS": "PROJECTS"
+    "ABOUT": "About me",
+    "CONTACT": "Contact",
+    "PROJECTS": "Projects"
   },
   "PROJECTS": {
     "CLARITY_AI": {

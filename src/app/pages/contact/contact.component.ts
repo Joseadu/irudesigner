@@ -1,10 +1,11 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ThemeService } from '../../core/services/theme.service';
 import { ServicesItemsService } from '../about/services/services-items.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
