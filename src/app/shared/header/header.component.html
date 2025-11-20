@@ -8,17 +8,17 @@
   <ul class="nav" [class.active]="isMenuOpen" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
     <li>
       <a routerLink="/proyectos" routerLinkActive="active">
-        <span>P</span><span>R</span><span>O</span><span>Y</span><span>E</span><span>C</span><span>T</span><span>O</span><span>S</span>
+        <span *ngFor="let char of projectsChars">{{ char === ' ' ? '\u00A0' : char }}</span>
       </a>
     </li>
     <li>
       <a routerLink="/sobre-mi" routerLinkActive="active">
-        <span>S</span><span>O</span><span>B</span><span>R</span><span>E</span>&nbsp;<span>M</span><span>I</span>
+        <span *ngFor="let char of aboutChars">{{ char === ' ' ? '\u00A0' : char }}</span>
       </a>
     </li>
     <li>
       <a routerLink="/contacto" routerLinkActive="active">
-        <span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span><span>O</span>
+        <span *ngFor="let char of contactChars">{{ char === ' ' ? '\u00A0' : char }}</span>
       </a>
     </li>
     <li class="lang-selector">

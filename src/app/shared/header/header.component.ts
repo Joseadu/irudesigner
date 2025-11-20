@@ -23,15 +23,48 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
   textColor = '#114653';
   bgColor = '#D7ECED';
 
+  // Arrays para las letras de cada tab
+  projectsChars: string[] = [];
+  aboutChars: string[] = [];
+  contactChars: string[] = [];
+
   constructor (
     private router: Router, private translate: TranslateService
   ) {}
+
+  // Función para dividir texto en array de caracteres
+  splitText(text: string): string[] {
+    return text.split('');
+  }
+
+  // Cargar las traducciones y dividirlas en caracteres
+  loadTranslations() {
+    this.translate.get('HEADER.NAV.PROJECTS').subscribe((text: string) => {
+      this.projectsChars = this.splitText(text);
+    });
+    this.translate.get('HEADER.NAV.ABOUT').subscribe((text: string) => {
+      this.aboutChars = this.splitText(text);
+    });
+    this.translate.get('HEADER.NAV.CONTACT').subscribe((text: string) => {
+      this.contactChars = this.splitText(text);
+    });
+  }
 
   ngOnInit() {
     // Establecer el idioma actual desde localStorage o por defecto 'es'
     const savedLang = localStorage.getItem('lang') || 'es';
     this.currentLang = savedLang;
     this.translate.use(savedLang);
+
+    // Cargar las traducciones iniciales
+    this.loadTranslations();
+
+    // Suscribirse a los cambios de idioma
+    this.sub.add(
+      this.translate.onLangChange.subscribe(() => {
+        this.loadTranslations();
+      })
+    );
 
     // Suscripción a los colores actuales
     this.sub.add(this.themeService.getTextColor$().subscribe(c => this.textColor = c));

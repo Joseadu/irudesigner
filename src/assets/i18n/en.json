@@ -115,7 +115,12 @@
   "HEADER": {
     "ABOUT": "About me",
     "CONTACT": "Contact",
-    "PROJECTS": "Projects"
+    "PROJECTS": "Projects",
+    "NAV": {
+      "PROJECTS": "PROJECTS",
+      "ABOUT": "ABOUT ME",
+      "CONTACT": "CONTACT"
+    }
   },
   "PROJECTS": {
     "CLARITY_AI": {
