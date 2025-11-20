@@ -42,7 +42,6 @@
       "DESCRIPTION": "As a freelance designer, I developed the visual identity of this start-up from the ground up, creating graphic materials for social media, editorial design, illustration, and print advertising."
     },
     "HOW_I_WORK": {
-      "TITLE": "I am not interested in delivering something purely beautiful. I look for hidden opportunities, challenge assumptions and ensure every design has a purpose. The outcome is a solution that solves real problems while opening the door to new possibilities.",
       "1": {
         "TITLE": "Graphic solutions for the real life",
         "DESCRIPTION": "Working with brands of different sizes has taught me that a solution only succeeds when it fits the client’s reality, their timing, resources and capabilities. My priority is to create design systems that clients can confidently use on their own, every day."
@@ -54,13 +53,12 @@
       "3": {
         "TITLE": "Always building for what comes next",
         "DESCRIPTION": "Creativity requires constant curiosity, it´s a muscle that you should exercise in order to generate innovative and original concepts. I stay informed about new visual languages, tools and design trends, not as a checklist, but to understand how they can elevate a brand. The aim is to create work that feels current today while remaining relevant tomorrow."
-      }
+      },
+      "TITLE": "I am not interested in delivering something purely beautiful. I look for hidden opportunities, challenge assumptions and ensure every design has a purpose. The outcome is a solution that solves real problems while opening the door to new possibilities."
     },
     "WHAT_I_DO": {
       "DESCRIPTION": "Over the past five years, I have partnered with a wide range of organisations, from early-stage startups and public institutions to internationally focused companies. My work goes beyond making something look attractive. Design becomes a strategic tool that uncovers opportunities and delivers measurable impact.",
       "BRAND_STRATEGY": {
-        "TITLE": "Brand Strategy",
-        "DESCRIPTION": "I help brands understand where they stand, how they are perceived and where they can grow. By analysing market context and customer behaviour, I define strategies that strengthen competitive advantage and build long-term relevance. My role is to bring clarity and coherence to what a brand thinks, says and shows.",
         "1": "Brand audits",
         "2": "Customer behaviour insights",
         "3": "Market and trend analysis",
@@ -68,11 +66,11 @@
         "5": "Values",
         "6": "Brand positioning",
         "7": "Key messaging",
-        "8": "Content strategy"
+        "8": "Content strategy",
+        "TITLE": "Brand Strategy",
+        "DESCRIPTION": "I help brands understand where they stand, how they are perceived and where they can grow. By analysing market context and customer behaviour, I define strategies that strengthen competitive advantage and build long-term relevance. My role is to bring clarity and coherence to what a brand thinks, says and shows."
       },
       "BRANDING": {
-        "TITLE": "Branding",
-        "DESCRIPTION": "I collaborate closely with each client to translate their personality into visual identities that feel clear, memorable and practical to use. Through thoughtful art direction and flexible design systems, ideas evolve into brands with real presence in the market. ",
         "1": "Logo design",
         "2": "Visual identity systems",
         "3": "Naming and tagline development",
@@ -80,11 +78,11 @@
         "5": "Typography",
         "6": "Colour palette",
         "7": "Brand guidelines",
-        "8": "Creative concept development"
+        "8": "Creative concept development",
+        "TITLE": "Branding",
+        "DESCRIPTION": "I collaborate closely with each client to translate their personality into visual identities that feel clear, memorable and practical to use. Through thoughtful art direction and flexible design systems, ideas evolve into brands with real presence in the market. "
       },
       "GRAPHIC_DESIGN": {
-        "TITLE": "Graphic Design",
-        "DESCRIPTION": "Versatility has always been at the core of my work. I design across multiple disciplines so that brands can maintain consistency wherever they appear. The goal is simple: visuals that not only look good on their own, but operate as part of a coherent system.",
         "1": "Print and advertising",
         "2": "Editorial design",
         "3": "Packaging",
@@ -92,11 +90,11 @@
         "5": "Social media and digital assets",
         "6": "Newsletters",
         "7": "Motion graphics",
-        "8": "Vectorial illustration"
+        "8": "Vectorial illustration",
+        "TITLE": "Graphic Design",
+        "DESCRIPTION": "Versatility has always been at the core of my work. I design across multiple disciplines so that brands can maintain consistency wherever they appear. The goal is simple: visuals that not only look good on their own, but operate as part of a coherent system."
       },
       "UI/UX_DESIGN": {
-        "TITLE": "UI/UX Design",
-        "DESCRIPTION": "I create digital experiences that balance brand expression, business goals and genuine user needs. My approach is grounded in research, data and usability, ensuring that every interaction feels intuitive and consistent. ",
         "1": "Design Systems",
         "2": "Information architecture",
         "3": "Wireframes and prototypes",
@@ -104,7 +102,9 @@
         "5": "UX design",
         "6": "Accessibility standards WCAG",
         "7": "Responsive layouts",
-        "8": "Usability testing"
+        "8": "Usability testing",
+        "TITLE": "UI/UX Design",
+        "DESCRIPTION": "I create digital experiences that balance brand expression, business goals and genuine user needs. My approach is grounded in research, data and usability, ensuring that every interaction feels intuitive and consistent. "
       }
     }
   },
@@ -119,7 +119,37 @@
   },
   "PROJECTS": {
     "CLARITY_AI": {
-      "DESCRIPTION": "Clarity AI is a leading sustainability technology platform that uses artificial intelligence to assess, analyse and report sustainability-related data. Its core mission is to enable investors, businesses and consumers to make informed decisions that contribute to a more sustainable future.The platform covers more than 70,000 companies, 430,000 funds and 400 national and sub-national governments, offering reliable data and methodologies grounded in scientific evidence."
+      "DESCRIPTION": "Clarity AI is a leading sustainability technology platform that uses artificial intelligence to assess, analyse and report sustainability-related data. Its core mission is to enable investors, businesses and consumers to make informed decisions that contribute to a more sustainable future. The platform covers more than 70,000 companies, 430,000 funds and 400 national and sub-national governments, offering reliable data and methodologies grounded in scientific evidence.",
+      "CONTEXT": "Context",
+      "WHEN_I_JOINED": "When I joined Clarity AI, I realised that the brand lacked visual and narrative consistency, which limited its ability to evolve alongside the business. Without clear brand guidelines, visual output was inconsistent, and the tone of communication unintentionally positioned the company as an environmental NGO rather than a technology leader. To maximise impact, I defined three strategic priorities: a full brand refresh, improved data visualisation and a better user experience across the corporate website and the product.",
+      "THE_VISUAL_ELEMENTS": "Visual assets were scarce and limited to watercolour illustrations, which gave the brand an unintentionally naive appearance.",
+      "REBRANDING_STRATEGY": "Brand refresh strategy",
+      "I_REDESIGNED": "I redesigned Clarity AI's visual identity to reflect its innovative vision and support its growth in the market. The result was a more modern and accessible visual universe (WCAG compliant), documented in a practical style guide that allowed the entire team to apply the brand consistently. To reinforce coherence and speed up production, I created templates, standardised visual assets and developed a shared library of icons and illustrations. This streamlined content creation and boosted brand recognition both internally and externally.",
+      "I_DEVELOPED_GRAPHIC_STYLE": "I also introduced a new illustration style based on the brand's primary colour, using abstract compositions to communicate key ideas. This illustration bank is now used across social media, the website and internal presentations. In addition, I curated a system of filtered stock photography, creating another layer of brand identification.",
+      "AS_PART_OF_REBRANDING": "As part of the rebrand, it became clear that the logotype required structural changes. It became difficult to read when scaled down, especially when placed alongside competitors' logos or printed in small formats. Since the brand wanted to keep the original concept, I refined the spacing and character shapes to improve legibility and performance at small sizes. For this reason, both versions of the logo appear throughout the project documentation.",
+      "DATA_VISUALIZATION": "Data visualisation",
+      "DATA_VISUALIZATION_DESCRIPTION": "Although Clarity AI is a company driven by data and research, there was no solid approach to data visualisation. This made insights harder to communicate, particularly for non-technical audiences. One of my main challenges was to redesign the way data was presented across formats and platforms, making it clearer, more engaging and easier to understand.",
+      "I_IDENTIFIED_STUDIES": "Internal studies were perceived as technical and dense. My goal was to turn complexity into clarity. Through training workshops, I introduced new storytelling standards for teams working with clients, designed more appealing and interactive visualisations for the blog, and completely renewed print and digital research reports. As a result, information shifted from being a barrier to becoming a persuasive communication tool.",
+      "CLARITY_PLATFORM_DATAVIZ": "The Clarity AI platform included multiple, highly complex data modules, but lacked a unified system to ensure consistency and accessibility. Working closely with the UI/UX team, I designed a visualisation framework integrated into the Design System. This allowed teams to add new charts more easily, guaranteed accessibility and reduced development time by 50%, ensuring faster and more efficient implementation. The visualisations shown on the right form part of this Design System.",
+      "UX_IMPROVEMENT": "User experience (UX) improvement",
+      "UX_IMPROVEMENT_DESCRIPTION": "As a visual designer at Clarity AI Design Product Team, I led the optimisation of both the corporate website and the data platform to enhance user experience, accessibility and conversion. With a data-driven approach and user-centred principles, I carried out a deep analysis of the user journey using heatmaps, confetti maps, scroll-maps and overlay reports. This allowed us to identify pain points in navigation and redesign the interface to align with the new brand identity, reduce conversion bottlenecks and increase both form submissions and traffic to the blog — an area that required high investment from the company.",
+      "BLOG_ISSUES": {
+        "TITLE": "Issues Identified in the Blog and Navigation",
+        "TABS_CONFUSING": "Some main issues included the presence of a long, confusing tab (Research & Insights) with no visual alignment with the rest of the site;",
+        "CLICK_RATE": "A low click-rate on the primary CTA \"Request a Demo\";",
+        "FILTER_INCOHERENCE": "Incoherent filtering options, offering only a single thematic filter despite broader options in the main menu, and no filtering at all on mobile;",
+        "INFINITE_SCROLL": "And infinite scrolling, which prevented users from reaching the bottom of the page or knowing how many results were available."
+      },
+      "BLOG_SOLUTIONS": {
+        "TITLE": "Solutions Implemented",
+        "MENU_REORGANIZATION": "I reorganised the main navigation menu to improve accessibility and create a more intuitive browsing experience.",
+        "CTA_REDESIGN": "The main UX writing CTA was redesigned — both visually and verbally — to make it more compelling.",
+        "SEARCH_BAR": "A keyword search bar was added, and filtering options were harmonised by including format and topic, with the possibility of selecting multiple filters simultaneously for a far more personalised experience.",
+        "SORT_RESULTS": "I introduced the option to sort results by date or popularity",
+        "PAGINATION": "Replaced infinite scroll with pagination, giving users full control over the content.",
+        "BLOG_REDESIGN": "I also redesigned the entire blog template."
+      },
+      "TOGETHER_WITH_UIUX": "Together with the UI/UX team, I rethought the waiting experience in the report-generation process. What was previously a moment of frustration became a moment of value: a clear progress bar and a small informative animation kept users informed and reassured, reinforcing the perception of efficiency and trust in the platform."
     }
   },
   "TEXT": {
@@ -127,6 +157,13 @@
     "DESCRIPTION": "This is a text in English"
   },
   "COMMON": {
-    "SEE_PROJECT": "see project"
+    "SEE_PROJECT": "see project",
+    "VISIT_WEBSITE": "Visit website",
+    "VIEW_REPORTS": "View reports",
+    "SEE_RESULT_HERE": "See the final result here",
+    "BEFORE": "Before",
+    "AFTER": "After",
+    "CLIENT": "CLIENT",
+    "SERVICES": "REBRANDING, UI/UX DESIGN, GRAPHIC DESIGN AND MOTION GRAPHICS"
   }
 }
