@@ -1,19 +1,11 @@
 <header class="header" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
   <app-logo></app-logo>
-  <select #langSel (change)="changeLang(langSel.value)">
-  <option value="es">ESP</option>
-  <option value="en">ENG</option>
-</select>
-<p>{{ 'TEXT.DESCRIPTION' | translate }}</p>
   <button class="menu-toggle" (click)="toggleMenu()" [class.open]="isMenuOpen" aria-label="Toggle menu">
     <span [ngStyle]="{'background-color': textColor }"></span>
     <span [ngStyle]="{'background-color': textColor }"></span>
     <span [ngStyle]="{'background-color': textColor }"></span>
   </button>
   <ul class="nav" [class.active]="isMenuOpen" [ngStyle]="{ color: textColor, 'background-color': bgColor, '--text-color': textColor }">
-    <!-- <li>
-      <a href=""><span>T</span><span>R</span><span>A</span><span>B</span><span>A</span><span>J</span><span>O</span><span>S</span></a>
-    </li> -->
     <li>
       <a routerLink="/proyectos" routerLinkActive="active">
         <span>P</span><span>R</span><span>O</span><span>Y</span><span>E</span><span>C</span><span>T</span><span>O</span><span>S</span>
@@ -28,6 +20,20 @@
       <a routerLink="/contacto" routerLinkActive="active">
         <span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span><span>O</span>
       </a>
+    </li>
+    <li class="lang-selector">
+      <div class="custom-select" [ngStyle]="{ color: textColor, 'border-color': textColor }">
+        <div class="select-trigger" (click)="toggleLangDropdown()" [ngStyle]="{ color: textColor, 'border-color': textColor }">
+          <span>{{ currentLang === 'es' ? 'ESP' : 'ENG' }}</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" [ngClass]="{'rotate': isLangOpen}">
+            <path [attr.fill]="textColor" d="M1.41 0L6 4.59L10.59 0L12 1.41l-6 6l-6-6z"/>
+          </svg>
+        </div>
+        <ul class="select-options" [class.show]="isLangOpen" [ngStyle]="{ 'background-color': bgColor, 'border-color': textColor }">
+          <li (click)="changeLang('es')" [class.selected]="currentLang === 'es'" [ngStyle]="{ color: textColor }">ESP</li>
+          <li (click)="changeLang('en')" [class.selected]="currentLang === 'en'" [ngStyle]="{ color: textColor }">ENG</li>
+        </ul>
+      </div>
     </li>
   </ul>
 </header>
