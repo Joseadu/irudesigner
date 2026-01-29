@@ -5,13 +5,13 @@
         <div class="detail-info">
           <img src="assets/images/deporte-mujer/pancarta-grande.png" alt="">
           <div class="detail-data">
-            <span class="text-light">CLIENTE: DIPUTACIÓN DE MÁLAGA</span>
-            <span class="text-light">IDENTIDAD VISUAL, DISEÑO GRÁFICO, VIDEO, FOTOGRAFÍA E IMPRESIÓN DIGITAL</span>
-            
+            <span class="text-light">{{ 'COMMON.CLIENT' | translate }}: DIPUTACIÓN DE MÁLAGA</span>
+            <span class="text-light">{{ 'PROJECTS.DEPORTE_MUJER.CARD.DESCRIPTION' | translate | uppercase }}</span>
+
           </div>
         </div>
         <p class="description text-light">
-          Desde el Área de Deportes de la Diputación de Málaga, convencida de la importancia de la actividad física para promover la salud y el bienestar, apuesta decididamente por desafiar los estereotipos de género en el mundo del deporte. El proyecto +deporte +mujer es un paso más hacia la promoción de la participación de la mujer en todos los ámbitos del deporte: dirección, entrenamiento, arbitraje, investigación, formación, etc. 
+          {{ 'PROJECTS.DEPORTE_MUJER.DESCRIPTION' | translate }}
         </p>
       </div>
     </div>
@@ -22,10 +22,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Una idea imparable
+        {{ 'PROJECTS.DEPORTE_MUJER.UNSTOPPABLE_IDEA' | translate }}
       </h4>
       <p>
-        El proyecto surgió como una campaña institucional de corta duración en la provincia de Málaga, pero su impacto fue tan positivo que sigue en marcha a día de hoy. Con un enfoque centrado en dar visibilidad a las mujeres en el deporte, buscaba normalizar su participación, destacar sus logros y fomentar una igualdad real sin recurrir a estereotipos. Durante los tres años que formé parte del equipo, se desarrollaron más de 20 actividades y patrocinios, incluyendo la Semana +deporte +mujer, con acciones diarias como rutas de senderismo con embajadoras del proyecto o marchas para personas mayores.
+        {{ 'PROJECTS.DEPORTE_MUJER.UNSTOPPABLE_IDEA_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -41,12 +41,9 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Principales retos
+        {{ 'PROJECTS.DEPORTE_MUJER.KEY_CHALLENGES' | translate }}
       </h4>
-      <p>
-        El principal reto era construir una identidad visual que se alejara del tono institucional tradicional, creando una imagen cercana, dinámica y adaptable a múltiples soportes. Como especialista en diseño impreso, desarrollé un sistema gráfico versátil, liderado por un logotipo con tipografía manuscrita y enérgica, para transmitir movimiento y vitalidad. Se eligieron colores vibrantes, casi neón, combinados con fondo negro para asegurar contraste y visibilidad. El objetivo era que quienes participaran en las actividades sintieran que la campaña les hablaba directamente y no como algo ajeno o impuesto.<br><br>
-        
-        Uno de los desafíos más importantes fue trasladar la marca al entorno físico. Ante la dificultad de usar materiales tradicionales como roll-ups, diseñé un soporte redondo y ligero —apodado cariñosamente como “la galleta”— que facilitaba el transporte y generaba una fuerte presencia de marca en cada evento. Esta solución se convirtió en un símbolo reconocible y práctico, especialmente útil en actividades al aire libre.
+      <p [innerHTML]="'PROJECTS.DEPORTE_MUJER.KEY_CHALLENGES_DESCRIPTION' | translate">
       </p>
     </div>
   </div>
@@ -62,10 +59,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Diseño que imprime significado
+        {{ 'PROJECTS.DEPORTE_MUJER.DESIGN_WITH_MEANING' | translate }}
       </h4>
       <p>
-        Uno de los desafíos más importantes fue trasladar la marca al entorno físico. Ante la dificultad de usar materiales tradicionales como roll-ups, diseñé un soporte redondo y ligero —apodado cariñosamente como “la galleta”— que facilitaba el transporte y generaba una fuerte presencia de marca en cada evento. Esta solución se convirtió en un símbolo reconocible y práctico, especialmente útil en actividades al aire libre.
+        {{ 'PROJECTS.DEPORTE_MUJER.DESIGN_WITH_MEANING_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -91,17 +88,9 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Impacto tangible
+        {{ 'PROJECTS.DEPORTE_MUJER.TANGIBLE_IMPACT' | translate }}
       </h4>
-      <p>
-        La identidad visual tuvo un impacto inmediato en el reconocimiento y la acogida del proyecto. Participantes de
-        todas las edades destacaban el logotipo como un elemento muy atractivo. Las camisetas promocionales, por
-        ejemplo, dejaron de ser un simple material de campaña y pasaron a formar parte del vestuario diario de muchas
-        asistentes, que valoraban su diseño como algo que se alejaba de ser un producto institucional más.<br><br>
-
-        La consistencia visual, junto con un tono accesible y profesional, contribuyó a consolidar el proyecto en la
-        provincia. Hoy, varios años después de su inicio, la campaña sigue activa, y su identidad gráfica continúa
-        vigente como una pieza clave en la conexión con la ciudadanía.
+      <p [innerHTML]="'PROJECTS.DEPORTE_MUJER.TANGIBLE_IMPACT_DESCRIPTION' | translate">
       </p>
     </div>
   </div>
@@ -109,7 +98,10 @@
 
 <section section-padding-narrow="narrow" class="section d-flex d-column gap-32">
   <div class="wrapper">
-   <iframe style="aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/1uy64jBv3us?si=zczFR4F3B7fmjAMB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe style="aspect-ratio: 16 / 9;" width="100%"
+      src="https://www.youtube.com/embed/1uy64jBv3us?si=zczFR4F3B7fmjAMB" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="wrapper">
     <img style="width: 100%;" src="assets/images/deporte-mujer/deporte-mujer-200.png" alt="">

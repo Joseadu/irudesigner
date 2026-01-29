@@ -1,4 +1,5 @@
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { SliderSingleComponent } from '../../shared/slider-single/slider-single.component';
@@ -6,7 +7,7 @@ import { RecommendedCardsComponent } from '../../shared/recommended-cards/recomm
 
 @Component({
   selector: 'app-deporte-mujer',
-  imports: [CommonModule, SliderSingleComponent, RecommendedCardsComponent],
+  imports: [CommonModule, SliderSingleComponent, RecommendedCardsComponent, TranslateModule],
   templateUrl: './deporte-mujer.component.html',
   styleUrl: './deporte-mujer.component.css'
 })
