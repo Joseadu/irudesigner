@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-recommended-cards',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, TranslateModule],
   templateUrl: './recommended-cards.component.html',
   styleUrl: './recommended-cards.component.css'
 })
@@ -14,5 +15,5 @@ export class RecommendedCardsComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.recommendations);
-  } 
+  }
 }

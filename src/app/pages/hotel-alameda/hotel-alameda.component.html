@@ -5,13 +5,13 @@
         <div class="detail-info">
           <img src="assets/images/hotel-alameda/portada.png" alt="">
           <div class="detail-data">
-            <span class="text-light">CLIENTE: Hotel Alameda</span>
-            <span class="text-light">identidad Visual y Diseño gráfico</span>
-            
+            <span class="text-light">{{ 'COMMON.CLIENT' | translate }}: Hotel Alameda</span>
+            <span class="text-light">{{ 'PROJECTS.HOTEL_ALAMEDA.CARD.DESCRIPTION' | translate | uppercase }}</span>
+
           </div>
         </div>
         <p class="description text-light">
-          Antonio Banderas por fin tendrá su teatro en Málaga, el Teatro Alameda. La idea de Banderas para la capital mezcla el concepto de hotel moderno y salas de teatro clásicas. Este espacio pretende ser uno de los puntos claves culturales de la ciudad, albergando en el mismo edificio una combinación perfecta de cultura, teatro, vanguardia y confort. En una ubicación privilegiada, a pocos minutos del centro histórico de Málaga, este hotel-teatro decorará el barrio del Soho en un edificio singular.
+          {{ 'PROJECTS.HOTEL_ALAMEDA.DESCRIPTION' | translate }}
         </p>
       </div>
     </div>
@@ -22,10 +22,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Concepto del logo
+        {{ 'PROJECTS.HOTEL_ALAMEDA.LOGO_CONCEPT' | translate }}
       </h4>
       <p>
-        Gracias al magnífico trabajo de conceptualización que realizó el equipo de diseño de interiores, el look and feel que tendrán las habitaciones y el resto de espacios del Hotel + teatro, reponde al concepto de modernindad y actualidad: el boho style. Por ello decidimos que la identidad visual de la marca usara colores cálidos a la vez que elementos que se relaciona con este estilo, como plumas y flechas. Especialmente la flecha, señala el punto de reunión entre artistas y malagueños que además visualmente al rotarse nos recuerdan a las comillas latinas, usadas para reproducir citas textuales o en narrativa para el parlamento de los personajes.
+        {{ 'PROJECTS.HOTEL_ALAMEDA.LOGO_CONCEPT_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -47,10 +47,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Home of dreams
+        {{ 'PROJECTS.HOTEL_ALAMEDA.HOME_OF_DREAMS' | translate }}
       </h4>
       <p>
-        El tagline funciona también a modo de descriptor: el hogar de los sueños. Debido a la proyección internacional que tiene la cultura en Málaga no nos preocupa demasiado usar el inglés. Unimos la palabra Home, que hace referencia a la calidad que encuentran nuestros clientes en las habitaciones del Hotel; y Dreams que hace referencia directa a las historias que se podrán disfrutar en el Teatro, dejando volar tu imaginación.
+        {{ 'PROJECTS.HOTEL_ALAMEDA.HOME_OF_DREAMS_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -71,10 +71,10 @@
 
       <div class="content">
         <h4>
-          Submarca para el Hotel
+          {{ 'PROJECTS.HOTEL_ALAMEDA.HOTEL_SUBBRAND' | translate }}
         </h4>
         <p>
-          En este sistema visual, enmarcaremos el isotipo de Alameda en un rombo cuadrado verde. Esta forma denota estabilidad y seguridad, que es precisamente la sensación que queremos que sientan nuestros clientes en las habitaciones. El color verdeAdemás siguiendo este estilo Boho y para cubrir la cantidad de materiales necesarios, hemos desarrollado un sistema visual con las cenefas. Cada diseño está ligado a un servicio, el rombo para el Hotel y el círculo para lo relacionado con el Teatro.
+          {{ 'PROJECTS.HOTEL_ALAMEDA.HOTEL_SUBBRAND_DESCRIPTION' | translate }}
         </p>
       </div>
     </div>
@@ -96,10 +96,10 @@
 
       <div class="content">
         <h4>
-          Submarca para el Teatro
+          {{ 'PROJECTS.HOTEL_ALAMEDA.THEATRE_SUBBRAND' | translate }}
         </h4>
         <p>
-          En los diseños para el Teatro hemos decidido usar el círculo. El escenario clásico tiene forma de semicículo, pero en Alameda no siempre se realizarán las tradicionales representación teatral unidireccional, sino que será un lugar de exploración artítistica donde otros formatos más modernos y vanguardistas podrán cobrar vida. Para ello contamos también con las cenefas con círculos. Se pueden combinar o repetir de varias maneras siempre con la finalidad de crear movimiento y dinamismo en las piezas.
+          {{ 'PROJECTS.HOTEL_ALAMEDA.THEATRE_SUBBRAND_DESCRIPTION' | translate }}
         </p>
       </div>
     </div>
@@ -132,12 +132,9 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Sistema visual coherente
+        {{ 'PROJECTS.HOTEL_ALAMEDA.COHERENT_VISUAL_SYSTEM' | translate }}
       </h4>
-      <p>
-        Para el diseño de la señalética del edificio, seguiremos usando el sistema visual desarrollado para identificar el Hotel y el Teatro, manteniendo la coherencia de la marca. De manera simbólica y enmarcado en las formas de círculos y rombos, identifiacaremos las diferentes estancias según su uso. <br><br>
-        
-        Para hacer la señaética dentro del propio edificio (sin contar con las señalizaciones de las habitaciones o de las salas de teatro o exposiciones) seguirán la misma estética pero con los elementos en el naranja corporativo y negro para aumentar el contraste y asegurar su legibilidad.
+      <p [innerHTML]="'PROJECTS.HOTEL_ALAMEDA.COHERENT_VISUAL_SYSTEM_DESCRIPTION' | translate">
       </p>
     </div>
   </div>

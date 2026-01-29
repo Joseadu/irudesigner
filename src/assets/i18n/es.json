@@ -121,6 +121,7 @@
     "BEFORE": "Antes",
     "AFTER": "Después",
     "CLIENT": "CLIENTE",
+    "RECOMMENDED_PROJECTS": "PROYECTOS RECOMENDADOS",
     "SERVICES": "REBRANDING, DISEÑO UI/UX, DISEÑO GRÁFICO Y MOTION GRAPHICS"
   },
   "HEADER": {
@@ -235,6 +236,69 @@
       "DESIGN_WITH_MEANING_DESCRIPTION": "Uno de los desafíos más importantes fue trasladar la marca al entorno físico. Ante la dificultad de usar materiales tradicionales como roll-ups, diseñé un soporte redondo y ligero —apodado cariñosamente como “la galleta”— que facilitaba el transporte y generaba una fuerte presencia de marca en cada evento. Esta solución se convirtió en un símbolo reconocible y práctico, especialmente útil en actividades al aire libre.",
       "TANGIBLE_IMPACT": "Impacto tangible",
       "TANGIBLE_IMPACT_DESCRIPTION": "La identidad visual tuvo un impacto inmediato en el reconocimiento y la acogida del proyecto. Participantes de todas las edades destacaban el logotipo como un elemento muy atractivo. Las camisetas promocionales, por ejemplo, dejaron de ser un simple material de campaña y pasaron a formar parte del vestuario diario de muchas asistentes, que valoraban su diseño como algo que se alejaba de ser un producto institucional más.<br><br>La consistencia visual, junto con un tono accesible y profesional, contribuyó a consolidar el proyecto en la provincia. Hoy, varios años después de su inicio, la campaña sigue activa, y su identidad gráfica continúa vigente como una pieza clave en la conexión con la ciudadanía."
+    },
+    "STELLA_BIKES": {
+      "CARD": {
+        "TITLE": "STELLA BIKES",
+        "DESCRIPTION": "Diseño editorial"
+      },
+      "DESCRIPTION": "Stella es una empresa familiar de Gijón que se dedica a construir bicicletas personalizadas que se adaptan totalmente a los gustos y necesidades de sus clientes. Su marca se ha hecho bastante conocida entre los amantes de las bicicletas a nivel local, pero están invirtiendo bastantes esfuerzos en ampliar su mercado al extranjero.",
+      "LOCAL_ROOTS": "Raíz local, rumbo global",
+      "LOCAL_ROOTS_DESCRIPTION": "Lo que diferencia a Stella del resto de tiendas de bicicletas es su estilo artesanal, esta empresa tiene muy claro que quiere huir de la obsolescencia programada que impera en la industria globalizada que realizan copias de un producto. Para ellos cada bicicleta debe captar la esencia de su dueño y adelantarse a sus futuras y existentes necesidades. También tiene que cumplir una función estética, porque no decirlo, y es que no hay nada como escuchar al dueño de una de estas bicicletas presumir de lo bien que se adapta, y como no, lo bonita que es.",
+      "SOULFUL_TECHNOLOGY": "Tecnología con alma",
+      "SOULFUL_TECHNOLOGY_DESCRIPTION": "El encargo fue un catálogo impreso con una identidad visual original aunque manteniendo la esencia de la marca. Mezclando los conceptos de la alta tecnología con el artesano, creé unas infografías para mostar los 4 modelos disponibles de bicicletas. Por un lado me he inspirado en la precisión que reflejan los planos realizados en programas como Autocut, la herramienta de diseño de proudcto más utilizada en aquel entonces, así como su toque más artesanal gracias a estos dibujos hecho a mano y su tipografía manuscrita."
+    },
+    "VIA_CRUCIS": {
+      "CARD": {
+        "TITLE": "FESTIVAL VIA CRUCIS",
+        "DESCRIPTION": "Identidad visual y cartelería"
+      },
+      "DESCRIPTION": "Via Crucis es el primer Festival de Música Póstcrata de Málaga, que tiene lugar en El Convento, un antiguo monasterio reformado convertido en centro cultural. Para el diseño de este cartel me inspiré en la caligrafía medieval, y decidí usar esta blackletter con toques también contemporáneos para los textos del cartel que acompañado de este ciervo construido como una vidiera de Iglesia ilustra el concepto del Festival de Música.",
+      "FAITH_ARCHITECTURE": "Arquitectura de la fe",
+      "FAITH_ARCHITECTURE_DESCRIPTION": "Para el cartel del festival Via Crucis, he elegido el triángulo como elemento principal, ya que es una forma básica y fundamental en la arquitectura, reconocida por su solidez y capacidad para dar estructura y equilibrio a cualquier composición. Además de recordar a las preciosas vidrieras que suelen decorar las ventanas de lugares de culto como Iglesias y Catedrales, hemos querido destacar también su valor estructural, ya que el triángulo encierra un profundo simbolismo cristiano: sus tres lados representan a la Santísima Trinidad —Padre, Hijo y Espíritu Santo—, que constituye el núcleo y la piedra angular de la fe cristiana.",
+      "SACRED_REINTERPRETATIONS": "Relecturas de lo sagrado",
+      "SACRED_REINTERPRETATIONS_DESCRIPTION": "Con el concepto de Via Crucis en mente, una práctica devocional católica que consiste en recordar los momentos de la pasión de Jesús desde su condenación hasta su sepultura, decidí escoger una tipografía que recordase a la caligrafía medieval, esta blackletter con toques también contemporáneos. La figura del ciervo tiene un origen y una carga simbólica fuertemente relacionado con lo pagano, y es precisamente esta dualidad lo que permite reconocer la herencia religiosa tradicional invitando a la reinterpretación contemporánea donde lo espiritual no está ligado a lo dogmático. Es una forma de señalar que la modernidad no niega lo sagrado, sino que lo reconfigura, lo mezcla, y lo abre a nuevas lecturas."
+    },
+    "RESTAURANTE_YAKI": {
+      "CARD": {
+        "TITLE": "RESTAURANTE YAKI",
+        "DESCRIPTION": "Branding, diseño gráfico, packaging, ilustración, diseño digital y merchandising"
+      },
+      "DESCRIPTION": "Yaki no es el típico restaurante japonés: es un izakaya, un concepto popular de taberna urbana centrada en la cocina callejera hecha a la plancha (yaki), que le da nombre al local. Apostamos por abrir este espacio en el centro de Málaga como una propuesta fresca y única frente a la oferta japonesa habitual. El nombre corto, directo y fácil de recordar refuerza esa diferenciación, alejándose del imaginario clásico de sushi, kanjis y solemnidad, para conectar con una nueva generación de amantes de Japón.",
+      "VIBRANT_VISUAL_UNIVERSE": "Un universo visual vibrante",
+      "VIBRANT_VISUAL_UNIVERSE_DESCRIPTION": "El sistema visual huye de los códigos minimalistas, del bambú y del rojo-blanco sobrio, apostando por una estética vibrante inspirada en el neón japonés. La marca mezcla colores saturados con patrones llenos de referencias tanto a la tradición como al anime noventero, creando un lenguaje visual reconocible y flexible. Personajes icónicos como Pikachu o Naruto conviven con elementos como onis o ramen, en una fusión entre cultura pop y herencia japonesa. Esta identidad desenfadada refuerza el vínculo emocional con un público joven y fanático.",
+      "MORE_THAN_A_RESTAURANT": "Mucho más que un restaurante",
+      "MORE_THAN_A_RESTAURANT_DESCRIPTION": "Desde su apertura, Yaki no solo ha atraído a fans del umami, sino que ha empezado a consolidarse como un punto de encuentro para la comunidad otaku de Málaga. A través de campañas participativas —como votaciones de nuevos personajes o concursos de ilustradores—, Yaki va construyendo una comunidad sólida y activa. Además, se proponen actividades culturales como exposiciones, concursos de cosplay o pequeños salones manga, posicionando el local como un referente cultural más allá de lo gastronómico.",
+      "MILLENNIAL_NOSTALGIA": "Packaging con nostalgia millennial",
+      "MILLENNIAL_NOSTALGIA_DESCRIPTION": "El diseño de packaging mantiene la energía de la identidad visual, incorporando personajes reinterpretados de la infancia millennial combinado con los kanjis japoneses con un enfoque gráfico moderno y colorido. Cada caja, vaso o servilleta es parte del universo de marca con colores neón y personajes que evocan recuerdos sin caer en la copia literal. Además, el logotipo se adapta para integrarse de forma orgánica en estas piezas, haciendo que el propio envoltorio sea un elemento más de la experiencia y de la narrativa visual."
+    },
+    "HOTEL_ALAMEDA": {
+      "CARD": {
+        "TITLE": "HOTEL TEATRO ALAMEDA MÁLAGA",
+        "DESCRIPTION": "Branding"
+      },
+      "DESCRIPTION": "Antonio Banderas por fin tendrá su teatro en Málaga, el Teatro Alameda. La idea de Banderas para la capital mezcla el concepto de hotel moderno y salas de teatro clásicas. Este espacio pretende ser uno de los puntos claves culturales de la ciudad, albergando en el mismo edificio una combinación perfecta de cultura, teatro, vanguardia y confort. En una ubicación privilegiada, a pocos minutos del centro histórico de Málaga, este hotel-teatro decorará el barrio del Soho en un edificio singular.",
+      "LOGO_CONCEPT": "Concepto del logo",
+      "LOGO_CONCEPT_DESCRIPTION": "Gracias al magnífico trabajo de conceptualización que realizó el equipo de diseño de interiores, el look and feel que tendrán las habitaciones y el resto de espacios del Hotel + teatro, reponde al concepto de modernindad y actualidad: el boho style. Por ello decidimos que la identidad visual de la marca usara colores cálidos a la vez que elementos que se relaciona con este estilo, como plumas y flechas. Especialmente la flecha, señala el punto de reunión entre artistas y malagueños que además visualmente al rotarse nos recuerdan a las comillas latinas, usadas para reproducir citas textuales o en narrativa para el parlamento de los personajes.",
+      "HOME_OF_DREAMS": "Home of dreams",
+      "HOME_OF_DREAMS_DESCRIPTION": "El tagline funciona también a modo de descriptor: el hogar de los sueños. Debido a la proyección internacional que tiene la cultura en Málaga no nos preocupa demasiado usar el inglés. Unimos la palabra Home, que hace referencia a la calidad que encuentran nuestros clientes en las habitaciones del Hotel; y Dreams que hace referencia directa a las historias que se podrán disfrutar en el Teatro, dejando volar tu imaginación.",
+      "HOTEL_SUBBRAND": "Submarca para el Hotel",
+      "HOTEL_SUBBRAND_DESCRIPTION": "En este sistema visual, enmarcaremos el isotipo de Alameda en un rombo cuadrado verde. Esta forma denota estabilidad y seguridad, que es precisamente la sensación que queremos que sientan nuestros clientes en las habitaciones. El color verdeAdemás siguiendo este estilo Boho y para cubrir la cantidad de materiales necesarios, hemos desarrollado un sistema visual con las cenefas. Cada diseño está ligado a un servicio, el rombo para el Hotel y el círculo para lo relacionado con el Teatro.",
+      "THEATRE_SUBBRAND": "Submarca para el Teatro",
+      "THEATRE_SUBBRAND_DESCRIPTION": "En los diseños para el Teatro hemos decidido usar el círculo. El escenario clásico tiene forma de semicículo, pero en Alameda no siempre se realizarán las tradicionales representación teatral unidireccional, sino que será un lugar de exploración artítistica donde otros formatos más modernos y vanguardistas podrán cobrar vida. Para ello contamos también con las cenefas con círculos. Se pueden combinar o repetir de varias maneras siempre con la finalidad de crear movimiento y dinamismo en las piezas.",
+      "COHERENT_VISUAL_SYSTEM": "Sistema visual coherente",
+      "COHERENT_VISUAL_SYSTEM_DESCRIPTION": "Para el diseño de la señalética del edificio, seguiremos usando el sistema visual desarrollado para identificar el Hotel y el Teatro, manteniendo la coherencia de la marca. De manera simbólica y enmarcado en las formas de círculos y rombos, identifiacaremos las diferentes estancias según su uso. <br><br>Para hacer la señaética dentro del propio edificio (sin contar con las señalizaciones de las habitaciones o de las salas de teatro o exposiciones) seguirán la misma estética pero con los elementos en el naranja corporativo y negro para aumentar el contraste y asegurar su legibilidad."
+    },
+    "WEEKEND_FESTIVAL": {
+      "CARD": {
+        "TITLE": "WEEKEND FESTIVAL",
+        "DESCRIPTION": "Branding y diseño gráfico"
+      },
+      "DESCRIPTION": "El Weekend Festival, celebrado en Helsinki y Espoo, reúne cada año a más de 40.000 fans de la música electrónica con un cartel de artistas de primer nivel como Steve Aoki o Evelina. Su sello distintivo es la reinvención visual: cada edición adopta una temática totalmente nueva, creando una experiencia inmersiva y única. Esta transformación constante lo convierte en uno de los festivales más esperados del norte de Europa, donde música y diseño se fusionan para sorprender y fidelizar a su comunidad.",
+      "NEW_EDITION": "Nueva edición, nueva identidad",
+      "NEW_EDITION_DESCRIPTION": "Imagina sumergirte bajo miles de luces, láseres y pirotecnia en el icónico Weekend Stage o vibrar al ritmo del techno más puro en la intimista CNNCT Stage: una producción de altísima calidad y visuales potentes hacen de cada edición una experiencia inolvidable. Este año, dimos un paso firme y decidido al centrar toda la identidad visual del festival en los colores del arcoíris, no como un añadido superficial, sino como una declaración clara de apoyo y compromiso con los derechos del colectivo LGTBIQ+.",
+      "GRAPHIC_LANGUAGE": "Lenguaje gráfico para impactar",
+      "GRAPHIC_LANGUAGE_DESCRIPTION": "Inspirándonos en los orígenes de la música electrónica en los años 80, desarrollamos un sistema visual con figuras abstractas, acabados granulados y vaporosas que evocan misterio y energía. Estas formas, combinadas colores intensamente saturados, crean composiciones vibrantes sobre fondo negro que capturan el pulso del festival. El resultado es una identidad versátil, orientada a lo digital, potente y reconocible que transforma cada soporte en una experiencia visual electrizante."
     }
   },
   "TEXT": {

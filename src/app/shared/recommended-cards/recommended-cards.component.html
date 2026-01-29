@@ -1,16 +1,16 @@
 <div class="recommended-cards">
-    <span class="grid-title">Proyectos recomendados</span>
+    <span class="grid-title">{{ 'COMMON.RECOMMENDED_PROJECTS' | translate }}</span>
 
     <div class="grid-container">
         @for (item of recommendations; track $index) {
         <div class="grid-item">
-            <a [routerLink]="['/proyectos', item.url]"><img [src]="item.imageUrl" alt="{{ item.title }}"></a>
+            <a [routerLink]="['/proyectos', item.url]"><img [src]="item.imageUrl" [alt]="item.title | translate"></a>
 
             <div class="grid-info">
                 <h5>
-                    <a [routerLink]="['/proyectos', item.url]">{{ item.title }}</a>
+                    <a [routerLink]="['/proyectos', item.url]">{{ item.title | translate }}</a>
                 </h5>
-                <p>{{ item.description }}</p>
+                <p>{{ item.description | translate }}</p>
             </div>
         </div>
         }

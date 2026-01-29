@@ -19,20 +19,20 @@ export class DeporteMujerComponent extends DetailComponentBase implements OnInit
   ];
   recommendations = [
     {
-      title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad visual',
+      title: 'PROJECTS.TOOTING_POLICE_STATION.CARD.TITLE',
+      description: 'PROJECTS.TOOTING_POLICE_STATION.CARD.DESCRIPTION',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
     {
-      title: 'CLARITY AI',
-      description: 'Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics',
+      title: 'PROJECTS.CLARITY_AI.CARD.TITLE',
+      description: 'PROJECTS.CLARITY_AI.CARD.DESCRIPTION',
       imageUrl: 'assets/images/clarity-ai/hero images-07.jpg',
       url: 'clarity-ai'
     },
     {
-      title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y diseño UX/UI',
+      title: 'PROJECTS.CONCILIO_COMMS.CARD.TITLE',
+      description: 'PROJECTS.CONCILIO_COMMS.CARD.DESCRIPTION',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }

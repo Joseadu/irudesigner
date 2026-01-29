@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { CommonModule } from '@angular/common';
 import { RecommendedCardsComponent } from '../../shared/recommended-cards/recommended-cards.component';
 
 @Component({
   selector: 'app-restaurante-yaki',
-  imports: [CommonModule, RecommendedCardsComponent],
+  imports: [CommonModule, RecommendedCardsComponent, TranslateModule],
   templateUrl: './restaurante-yaki.component.html',
   styleUrl: './restaurante-yaki.component.css'
 })
@@ -13,20 +14,20 @@ export class RestauranteYakiComponent extends DetailComponentBase {
 
   recommendations = [
     {
-      title: 'DAGENHAM GREEN',
-      description: 'Diseño gráfico y diseño UI/UX',
+      title: 'PROJECTS.DAGENHAM.CARD.TITLE',
+      description: 'PROJECTS.DAGENHAM.CARD.DESCRIPTION',
       imageUrl: 'assets/images/dagenham/dagenham.jpg',
       url: 'dagenham'
     },
     {
-      title: 'HOTEL TEATRO ALAMEDA MÁLAGA',
-      description: 'Branding',
+      title: 'PROJECTS.HOTEL_ALAMEDA.CARD.TITLE',
+      description: 'PROJECTS.HOTEL_ALAMEDA.CARD.DESCRIPTION',
       imageUrl: 'assets/images/hotel-alameda/portada.png',
       url: 'hotel-alameda'
     },
     {
-      title: 'WEEKEND FESTIVAL',
-      description: 'Branding',
+      title: 'PROJECTS.WEEKEND_FESTIVAL.CARD.TITLE',
+      description: 'PROJECTS.WEEKEND_FESTIVAL.CARD.DESCRIPTION',
       imageUrl: 'assets/images/weekend/iPhone XR Isometric.jpg',
       url: 'weekend-festival'
     },

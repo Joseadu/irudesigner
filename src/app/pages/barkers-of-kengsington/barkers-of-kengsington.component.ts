@@ -15,20 +15,20 @@ export class BarkersOfKengsingtonComponent extends DetailComponentBase implement
 
   recommendations = [
     {
-      title: 'DAGENHAM GREEN',
-      description: 'Diseño gráfico y diseño UI/UX',
+      title: 'PROJECTS.DAGENHAM.CARD.TITLE',
+      description: 'PROJECTS.DAGENHAM.CARD.DESCRIPTION',
       imageUrl: 'assets/images/dagenham/dagenham.jpg',
       url: 'dagenham'
     },
     {
-      title: 'FORMER TOOTING POLICE STATION',
-      description: 'Identidad visual',
+      title: 'PROJECTS.TOOTING_POLICE_STATION.CARD.TITLE',
+      description: 'PROJECTS.TOOTING_POLICE_STATION.CARD.DESCRIPTION',
       imageUrl: 'assets/images/tooting-police-station/tooting.jpg',
       url: 'tooting-police-station'
     },
     {
-      title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y diseño UX/UI',
+      title: 'PROJECTS.CONCILIO_COMMS.CARD.TITLE',
+      description: 'PROJECTS.CONCILIO_COMMS.CARD.DESCRIPTION',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }

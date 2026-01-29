@@ -23,7 +23,7 @@ export class ClarityAIComponent extends DetailComponentBase {
     'assets/images/clarity-ai/slider1/8.jpg',
     'assets/images/clarity-ai/slider1/9.jpg',
   ];
-  
+
   clarityAiImages2 = [
     'assets/images/clarity-ai/slider2/3 carrousel-01.jpg',
     'assets/images/clarity-ai/slider2/3 carrousel-02.jpg',
@@ -40,23 +40,23 @@ export class ClarityAIComponent extends DetailComponentBase {
     'assets/images/clarity-ai/5.jpg',
     'assets/images/clarity-ai/6.png',
   ];
-  
+
   recommendations = [
     {
-      title: 'DAGENHAM GREEN',
-      description: 'Diseño gráfico y diseño UI/UX',
+      title: 'PROJECTS.DAGENHAM.CARD.TITLE',
+      description: 'PROJECTS.DAGENHAM.CARD.DESCRIPTION',
       imageUrl: 'assets/images/dagenham/dagenham.jpg',
       url: 'dagenham'
     },
     {
-      title: '+DEPORTE +MUJER DIPUTACIÓN DE MÁLAGA',
-      description: 'Identidad visual, diseño gráfico, video, fotografía e impresión digital',
+      title: 'PROJECTS.DEPORTE_MUJER.CARD.TITLE',
+      description: 'PROJECTS.DEPORTE_MUJER.CARD.DESCRIPTION',
       imageUrl: 'assets/images/deporte-mujer/pancarta-grande.png',
       url: 'deporte-mujer'
     },
     {
-      title: 'CONCILIO COMMUNICATIONS',
-      description: 'Rebranding y diseño UX/UI',
+      title: 'PROJECTS.CONCILIO_COMMS.CARD.TITLE',
+      description: 'PROJECTS.CONCILIO_COMMS.CARD.DESCRIPTION',
       imageUrl: 'assets/images/concilio/concilio.jpg',
       url: 'concilio'
     }
