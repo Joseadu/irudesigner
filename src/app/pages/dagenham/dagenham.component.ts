@@ -1,4 +1,5 @@
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { SliderSingleComponent } from '../../shared/slider-single/slider-single.component';
@@ -9,7 +10,8 @@ import { RecommendedCardsComponent } from '../../shared/recommended-cards/recomm
   imports: [
     CommonModule,
     SliderSingleComponent,
-    RecommendedCardsComponent
+    RecommendedCardsComponent,
+    TranslateModule
   ],
   templateUrl: './dagenham.component.html',
   styleUrl: './dagenham.component.css'

@@ -5,3 +5,14 @@
     margin: 0 auto;
   }
 }
+
+::ng-deep .project-link {
+  font-weight: 700 !important;
+  color: inherit;
+  text-decoration: none;
+}
+
+::ng-deep .project-link:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}

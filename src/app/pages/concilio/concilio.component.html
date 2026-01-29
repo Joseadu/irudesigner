@@ -5,12 +5,12 @@
         <div class="detail-info">
           <img src="assets/images/concilio/concilio.jpg" alt="">
           <div class="detail-data">
-            <span class="text-dark">CLIENTE: CONCILIO COMMS</span>
-            <span class="text-dark">IDENTIDAD VISUAL, DISEÑO GRÁFICO, MOTION GRAPICS Y DISEÑO UX/UI</span>
+            <span class="text-dark">{{ 'COMMON.CLIENT' | translate }}: CONCILIO COMMS</span>
+            <span class="text-dark">{{ 'PROJECTS.CONCILIO_COMMS.CARD.DESCRIPTION' | translate | uppercase }}</span>
           </div>
         </div>
         <p class="description text-dark">
-          Concilio es una empresa de comunicación con sede en Londres, especializada en el sector de la construcción. Actúa como intermediaria entre empresas constructoras y comunidades locales, facilitando procesos de consulta ciudadana obligatorios por normativa. A través de encuentros presenciales en los barrios o sesiones online, la ciudadanía puede expresar sus opiniones y necesidades, asegurando que los nuevos desarrollos urbanos respondan de forma más humana, sostenible y participativa.
+          {{ 'PROJECTS.CONCILIO_COMMS.DESCRIPTION' | translate }}
         </p>
       </div>
     </div>
@@ -21,10 +21,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Contexto
+        {{ 'PROJECTS.CONCILIO_COMMS.CONTEXT' | translate }}
       </h4>
       <p>
-        Tras varios meses de trabajo en la empresa, detectamos que el sistema visual existente —rígido y algo desactualizado— ya no respondía a las nuevas necesidades de comunicación. Tras una estrecha colaboración entre el con el equipo directivo, replanteamos la estructura de marca para dar cabida al crecimiento de la empresa. Así nació la división en tres áreas: Concilio Consult, centrada en consultorías ciudadanas; Concilio Connect, enfocada en comunicación digital; y Concilio Create, el nuevo estudio de diseño especializado en branding, piezas impresas y entorno digital, que tuve la oportunidad de liderar desde su creación por dos años.
+        {{ 'PROJECTS.CONCILIO_COMMS.CONTEXT_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -49,10 +49,10 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Concepto y estrategia
+        {{ 'PROJECTS.CONCILIO_COMMS.CONCEPT_STRATEGY' | translate }}
       </h4>
       <p>
-        Para la diferenciación de estas tres areas dentro de la empresa, me surgió la idea de desarrollar estos tres identificativos que funcionan como submarcas. Debido a la alta reconocibilidad que tiene Concilio en el sector, no nos conviene al menos por ahora, experiementar demasiado con ideas que disten del logo actual, ya que nos arriesgamos a ser percibidos como otra empresa nueva. Por ello mantuvimos la misma estructura del logo original, añandiendo en la misma tipografía el identificativo de servicio.
+        {{ 'PROJECTS.CONCILIO_COMMS.CONCEPT_STRATEGY_DESCRIPTION' | translate }}
       </p>
     </div>
   </div>
@@ -77,10 +77,9 @@
   <div class="wrapper col-6 col-sm-12 right-no-auto">
     <div class="content">
       <h4>
-        Resultado final
+        {{ 'PROJECTS.CONCILIO_COMMS.FINAL_RESULT' | translate }}
       </h4>
-      <p>
-        Gracias a la creación de Concilio Create y Concilio Conect, el número de proyectos aumentó significativamente. Las empresas valoraron especialmente la facilidad de contar con un servicio integral: desde la comunicación con los vecinos y stakeholders, hasta el diseño web y la construcción de una identidad visual sólida para cada proyecto. Esta propuesta end to end no solo optimizó tiempos y procesos, sino que también permitió diferenciar a nuestros clientes frente a la competencia, generando una imagen más profesional, coherente y de mayor impacto ante su audiencia. Alguno de estos casos de éxito fueron Dagenham, Tooting y Bakers Building.
+      <p [innerHTML]="'PROJECTS.CONCILIO_COMMS.FINAL_RESULT_DESCRIPTION' | translate">
       </p>
     </div>
   </div>

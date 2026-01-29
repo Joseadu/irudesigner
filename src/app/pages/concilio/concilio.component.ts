@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 import { DetailComponentBase } from '../../core/base/detail-component-base';
 import { RecommendedCardsComponent } from '../../shared/recommended-cards/recommended-cards.component';
 
 @Component({
   selector: 'app-concilio',
-  imports: [CommonModule, RecommendedCardsComponent],
+  imports: [CommonModule, RecommendedCardsComponent, TranslateModule],
   templateUrl: './concilio.component.html',
   styleUrl: './concilio.component.css',
 })
