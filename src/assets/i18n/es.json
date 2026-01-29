@@ -4,6 +4,7 @@
     "CLARITY_AI": {
       "DATE": "JULIO 2022-Actualidad (REMOTO)",
       "POSITION": "Diseñadora Visual - Clarity AI",
+
       "DESCRIPTION": "Colaboré en el equipo de Marketing y de Diseño de Producto para esta empresa tecnológica (B2B SaaS), con principales aportaciones en:\n\n- Apliqué mediciones UX que mejoraron la navegación y aumentaron leads y peticiones de demo en la web app.\n - Creé una guía de estilo que impulsó la cultura de diseño, redujo tiempos de producción y aseguró consistencia visual en todos los materiales.\n - Transformé datos técnicos complejos en gráficos visualmente atractivos para memorias corporativas y reportes sobre sostenibilidad y ESG"
     },
     "CONCILIO_COMMS": {
@@ -135,6 +136,10 @@
   "PROJECTS": {
     "CLARITY_AI": {
       "DESCRIPTION": "Clarity AI es una plataforma líder en tecnología de sostenibilidad que ofrece soluciones impulsadas por inteligencia artificial para evaluar, analizar y reportar datos relacionados con la sostenibilidad. Su objetivo es permitir a inversores, empresas y consumidores tomar decisiones informadas que contribuyan a un futuro más sostenible. La plataforma abarca más de 70,000 empresas, 430,000 fondos y 400 gobiernos nacionales y subnacionales, proporcionando datos fiables y metodologías basadas en evidencia científica.",
+      "CARD": {
+        "TITLE": "CLARITY AI",
+        "DESCRIPTION": "Rebranding, diseño UI/UX, diseño gráfico, diseño editorial y motion graphics"
+      },
       "CONTEXT": "Contexto",
       "WHEN_I_JOINED": "Al unirme a Clarity AI, identifiqué que su identidad de marca carecía de coherencia visual y narrativa, limitando su capacidad de evolucionar con la empresa. La falta de directrices claras generaba inconsistencia visual, mientras que una comunicación fragmentada no transmitía eficazmente su propuesta de valor más allá de la sostenibilidad (parecía más una ONG de protección de medio ambiente que una empresa tecnológica). Establecí tres objetivos clave para lograr el mayor impacto posible: Rediseño del branding, mejora de la visualización de datos y optimización de la experiencia de usuario.",
       "THE_VISUAL_ELEMENTS": "Los elementos visuales eran muy escasos, se limitaban a unas ilustraciones en acuarela que le daba a la marca un aspecto naíf nada deseado.",
@@ -165,6 +170,19 @@
         "BLOG_REDESIGN": "También rediseñé por completo las páginas del blog."
       },
       "TOGETHER_WITH_UIUX": "Junto al equipo de UI/UX, redefiní la experiencia de espera en la generación de reportes al convertir un momento de fricción en una oportunidad de valor. Incorporamos una barra de progreso clara y una animación informativa que mantenía al usuario acompañado y actualizado, reforzando así la percepción de eficiencia y confianza en la plataforma."
+    },
+    "TOOTING_POLICE_STATION": {
+      "CARD": {
+        "TITLE": "FORMER TOOTING POLICE STATION",
+        "DESCRIPTION": "Identidad visual, diseño gráfico, motion graphics y diseño UX/UI"
+      },
+      "DESCRIPTION": "Tooting Police Station es una antigua comisaría en desuso que la empresa Telereal Trillium adquirió para transformarla en un bloque de viviendas con espacios comunitarios, manteniendo su estructura y elementos históricos. Para facilitar la participación vecinal en el proceso, desarrollamos en Concilio Communications una identidad visual moderna adaptada al público objetivo, que conectara todos los materiales de consulta y generara cercanía con los habitantes del barrio de Tooting, Londres.",
+      "CONTEXT": "Contexto",
+      "CONTEXT_DESCRIPTION": "Analizando el perfil del barrio y su comunidad joven, identificamos una fuerte conexión emocional con el patrimonio local y, al mismo tiempo, una percepción de abandono respecto a edificios emblemáticos como la comisaría. Esto reveló una oportunidad clara: construir una identidad visual que combinara el respeto por la historia con una estética fresca y actual, capaz de generar cercanía y participación activa.",
+      "CONCEPT_STRATEGY": "Concepto y estrategia",
+      "CONCEPT_STRATEGY_DESCRIPTION": "Concluimos que este proyecto necesitaba una identidad visual contemporánea que conectara con una audiencia joven sin perder la esencia histórica del edificio. Optamos por una paleta monocromática que aportara frescura y visibilidad. El isotipo se construyó a partir de la silueta reconocible del edificio que pudimos estudiar en detalle gracias a las tomas aéreas con dron. Esto nos permitió traducir su forma icónica en un símbolo con fuerte carga identitaria. Para equilibrar el naming tan extenso y reforzar la personalidad del logo, se modificaron las letras M, N y A en coherencia con el isotipo. Además, se creó un pattern versátil y llamativo para su aplicación en formatos impresos y digitales.",
+      "FINAL_RESULT": "Resultado final",
+      "FINAL_RESULT_DESCRIPTION": "La propuesta de branding tuvo una acogida muy positiva por parte de la comunidad. La identidad visual facilitó el reconocimiento del proyecto en el barrio y ayudó a aumentar la participación en las consultas ciudadanas en un 40% respecto a iniciativas anteriores. Los materiales diseñados generaron comentarios favorables en redes sociales y en foros locales, destacando la conexión emocional entre la propuesta gráfica y la historia del edificio. La marca final consiguió posicionar el proyecto como una iniciativa moderna, inclusiva y respetuosa con la memoria colectiva en el barrio de Tooting, Londres."
     }
   },
   "TEXT": {

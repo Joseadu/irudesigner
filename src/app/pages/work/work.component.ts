@@ -14,9 +14,11 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { CommonModule } from '@angular/common';
 import { BadgeComponent } from '../../shared/badge/badge.component';
 
+import { TranslateModule } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-projects',
-  imports: [RouterLink, CommonModule, BadgeComponent],
+  imports: [RouterLink, CommonModule, BadgeComponent, TranslateModule],
   templateUrl: './work.component.html',
   styleUrl: './work.component.css',
 })
@@ -26,7 +28,7 @@ export class WorkComponent implements AfterViewInit, OnDestroy {
     private themeService: ThemeService,
     private el: ElementRef,
     private transitionService: TransitionService
-  ) {}
+  ) { }
 
   ngAfterViewInit() {
     const links = this.el.nativeElement.querySelectorAll('.group-link');
